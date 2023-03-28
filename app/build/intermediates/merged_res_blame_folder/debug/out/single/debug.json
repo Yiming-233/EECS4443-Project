@@ -1,0 +1,634 @@
+[
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_richard_feynman.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_richard_feynman.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\layout-land_main.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\layout-land\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_golda_meir.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_golda_meir.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_bill_clinton.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_bill_clinton.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_martin_luther_king_jr.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_martin_luther_king_jr.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\layout_quiz_answer.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\layout\\quiz_answer.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_samuel_johnson.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_samuel_johnson.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\animator_view_appear_enter.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\animator\\view_appear_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_bill_gates.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_bill_gates.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_desmond_tutu.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_desmond_tutu.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\layout-land_word.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\layout-land\\word.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_winston_churchill.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_winston_churchill.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_george_carlin.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_george_carlin.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\raw_blip.wav.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\raw\\blip.wav"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_salvador_dali.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_salvador_dali.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_lenny_bruce.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_lenny_bruce.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_carl_jung.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_carl_jung.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_margaret_thatcher.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_margaret_thatcher.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_miles_davis.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_miles_davis.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_amelia_earhart.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_amelia_earhart.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_jimi_hendrix.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_jimi_hendrix.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_john_f_kennedy.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_john_f_kennedy.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_george_burns.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_george_burns.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\animator_view_slide_right_enter.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\animator\\view_slide_right_enter.xml"
+    },
+    {
+        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-8:/xml_preferences.xml.flat",
+        "source": "ca.yorku.eecs.mack.Project4443.app-main-10:/xml/preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_oscar_wilde.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_oscar_wilde.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_justin_bieber.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_justin_bieber.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\xml_preferences.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\xml\\preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_abraham_lincoln.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_abraham_lincoln.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_john_wanamaker.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_john_wanamaker.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_confucius.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_confucius.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_eleanor_roosevelt.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_eleanor_roosevelt.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_stephen_harper.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_stephen_harper.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_oprah_winfrey.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_oprah_winfrey.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\layout-land_quiz_question.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\layout-land\\quiz_question.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\animator_view_slide_left_exit.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\animator\\view_slide_left_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_bob_dylan.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_bob_dylan.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_britney_spears.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_britney_spears.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_charles_de_gaule.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_charles_de_gaule.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_fred_flintstone.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_fred_flintstone.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_richard_nixon.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_richard_nixon.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_richard_dawkins.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_richard_dawkins.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_igor_stravinsky.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_igor_stravinsky.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\layout_main.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_paris_hilton.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_paris_hilton.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_mark_twain.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_mark_twain.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_lily_tomlin.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_lily_tomlin.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_frank_lloyd_wright.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_frank_lloyd_wright.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_tom_waits.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_tom_waits.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_arnold_swartzenegger.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_arnold_swartzenegger.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_john_lennon.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_john_lennon.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_ayn_rand.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_ayn_rand.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\layout_definition.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\layout\\definition.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\layout_makecard.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\layout\\makecard.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_bertrand_russell.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_bertrand_russell.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_marshall_mcluhan.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_marshall_mcluhan.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\layout_word.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\layout\\word.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_pierre_elliot_trudeau.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_pierre_elliot_trudeau.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_sarah_palin.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_sarah_palin.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_pete_seeger.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_pete_seeger.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_albert_einstein.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_albert_einstein.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_foster_hewitt.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_foster_hewitt.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_groucho_marx.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_groucho_marx.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_will_durant.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_will_durant.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_lance_armstrong.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_lance_armstrong.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_bob_marley.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_bob_marley.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_fran_lebowitz.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_fran_lebowitz.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\layout_main_quiz.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\layout\\main_quiz.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_mae_west.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_mae_west.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_p_t_barnum.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_p_t_barnum.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_thomas_edison.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_thomas_edison.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_napoleon_bonaparte.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_napoleon_bonaparte.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_dirty_harry.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_dirty_harry.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_chartlon_heston.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_chartlon_heston.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_voltaire.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_voltaire.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_plato.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_plato.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_steve_martin.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_steve_martin.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_elvis_presley.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_elvis_presley.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_chaucer.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_chaucer.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\animator_view_flip_exit.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\animator\\view_flip_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_h_g_wells.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_h_g_wells.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_ingrid_bergman.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_ingrid_bergman.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_john_belushi.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_john_belushi.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\layout-land_makecard.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\layout-land\\makecard.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\layout-land_definition.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\layout-land\\definition.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_lord_kelvin.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_lord_kelvin.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_muhammed_ali.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_muhammed_ali.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_bill_maher.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_bill_maher.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_cass_elliot.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_cass_elliot.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_woody_allen.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_woody_allen.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_virginia_woolf.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_virginia_woolf.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_mel_brooks.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_mel_brooks.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_warren_buffett.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_warren_buffett.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_agatha_christie.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_agatha_christie.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\layout_quiz_question.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\layout\\quiz_question.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_rodney_dangerfield.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_rodney_dangerfield.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_don_quixote.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_don_quixote.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_marilyn_monroe.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_marilyn_monroe.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_zsa_zsa_gabor.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_zsa_zsa_gabor.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_al_capone.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_al_capone.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\animator_view_appear_exit.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\animator\\view_appear_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\layout_results_dialog.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\layout\\results_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\layout-land_main_quiz.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\layout-land\\main_quiz.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\raw_click.wav.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\raw\\click.wav"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_friendly_giant.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_friendly_giant.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_julian_assange.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_julian_assange.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_carl_sagan.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_carl_sagan.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_yogi_berra.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_yogi_berra.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_ben_johnson_2.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_ben_johnson_2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_wayne_gretzky.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_wayne_gretzky.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_thomas_jefferson.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_thomas_jefferson.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_galileo_galilei.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_galileo_galilei.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\raw_miss.wav.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\raw\\miss.wav"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_george_w_bush.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_george_w_bush.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\animator_view_slide_left_enter.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\animator\\view_slide_left_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_friedrich_nietzsche.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_friedrich_nietzsche.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_ralph_waldo_emerson.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_ralph_waldo_emerson.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\animator_view_flip_enter.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\animator\\view_flip_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_yoko_ono.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_yoko_ono.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_benjamin_disraeli.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_benjamin_disraeli.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_mahatma_ghandi.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_mahatma_ghandi.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_jay_leno.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_jay_leno.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_walter_cronkite.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_walter_cronkite.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_seneca.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_seneca.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_gore_vidal.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_gore_vidal.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\layout-land_quiz_answer.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\layout-land\\quiz_answer.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_dorothy_parker.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_dorothy_parker.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_henry_kissinger.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_henry_kissinger.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_emily_dickenson.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_emily_dickenson.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\animator_view_slide_right_exit.xml.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\animator\\view_slide_right_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_pablo_picasso.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_pablo_picasso.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_allen_newell.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_allen_newell.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_frank_zappa.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_frank_zappa.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_george_bernard_shaw.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_george_bernard_shaw.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_alexander_pope.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_alexander_pope.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_phyllis_diller.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_phyllis_diller.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-8:\\drawable-nodpi_quotation_hiram_johnson.jpg.flat",
+        "source": "C:\\Users\\LongA\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-10:\\drawable-nodpi\\quotation_hiram_johnson.jpg"
+    }
+]

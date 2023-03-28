@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Project4443_FlashCard</string>
+    <string name="image_description">(image)</string>
+    <string name="menu_title">Words</string>
+    <string name="menu_quiz">Quiz</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_deck">Card Deck</string>
+    <string name="quiz_question">Which word is this?</string>
+    <string name="results_title">Thank You</string>
+    <string name="correct_title">Correct!</string>
+    <string name="incorrect_title">Sorry!</string>
+    <string name="continue_string">Continue</string>
+    <string name="try_again">Try again</string>
+    <string name="correct_label">Correct:</string>
+    <string name="incorrect_label">Incorrect:</string>
+    <string name="number_of_hints_label">Number of hints:</string>
+    <string name="elapsed_time_label">Elapsed time:</string>
+    <string name="word">Word:</string>
+    <string name="def">Definition:</string>
+
+    <!-- QUIZ LENGTH PREFERENCES -->
+    <string name="pref_quiz_length_title">Quiz Length</string>
+    <string name="pref_quiz_length_key">questions</string>
+    <string name="pref_quiz_length_summary">Select the number of questions in a quiz</string>
+
+    <string-array name="pref_quiz_length_entries">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"5"</item>
+        <item>"10"</item>
+        <item>"20"</item>
+    </string-array>
+    <string-array name="pref_quiz_length_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"5"</item>
+        <item>"10"</item>
+        <item>"20"</item>
+    </string-array>
+
+    <!-- QUIZ VIBRATION PREFERENCES -->
+    <string name="pref_quiz_mode">haptic and auditory</string>
+    <string name="pref_quiz_mode_summary">switch to haptic and auditory mode</string>
+    <string name="ppref_quiz_mode_title">haptic and auditory</string>
+</resources>

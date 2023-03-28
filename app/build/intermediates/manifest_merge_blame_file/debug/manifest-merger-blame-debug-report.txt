@@ -1,0 +1,75 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ca.yorku.eecs.mack.Project4443"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:6:5-66
+11-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:6:22-63
+12
+13    <application
+13-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:8:5-35:19
+14        android:allowBackup="false"
+14-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:9:9-36
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:11:9-41
+19        android:testOnly="true"
+20        android:theme="@android:style/Theme.Holo" >
+20-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:12:9-50
+21        <activity
+21-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:13:9-22:20
+22            android:name="ca.yorku.eecs.mack.Project4443.FlashCardActivity"
+22-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:14:13-76
+23            android:exported="true"
+23-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:16:13-36
+24            android:label="@string/app_name" >
+24-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:15:13-45
+25            <intent-filter>
+25-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:17:13-21:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:18:17-69
+26-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:18:25-66
+27                <action android:name="android.intent.action.VIEW" />
+27-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:19:17-69
+27-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:19:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:20:17-77
+29-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:23:9-26:20
+33            android:name="ca.yorku.eecs.mack.Project4443.QuizActivity"
+33-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:24:13-71
+34            android:label="@string/app_name" >
+34-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:25:13-45
+35        </activity>
+36        <activity
+36-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:27:9-30:20
+37            android:name="ca.yorku.eecs.mack.Project4443.SettingsActivity"
+37-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:28:13-75
+38            android:label="@string/app_name" >
+38-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:29:13-45
+39        </activity>
+40        <activity
+40-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:31:9-34:20
+41            android:name="ca.yorku.eecs.mack.Project4443.AddCard"
+41-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:32:13-66
+42            android:label="@string/app_name" >
+42-->C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:33:13-45
+43        </activity>
+44    </application>
+45
+46</manifest>
