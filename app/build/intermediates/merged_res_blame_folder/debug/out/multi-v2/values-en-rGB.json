@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "ca.yorku.eecs.mack.Project4443.app-mergeDebugResources-6:/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "ca.yorku.eecs.mack.Project4443.app-mergeDebugResources-3:/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\LongA\\.gradle\\caches\\transforms-3\\b614c4b514087bbd4477484795f1df71\\transformed\\support-compat-27.1.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "source": "D:\\((york))\\android2\\.gradle\\caches\\transforms-3\\b614c4b514087bbd4477484795f1df71\\transformed\\support-compat-27.1.0\\res\\values-en-rGB\\values-en-rGB.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "ca.yorku.eecs.mack.Project4443.app-mergeDebugResources-6:/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+            "outputFile": "ca.yorku.eecs.mack.Project4443.app-mergeDebugResources-3:/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\LongA\\Documents\\EECS4443\\Project4443\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+                    "source": "D:\\((york))\\4443\\Project4443\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
                     "from": {
                         "startLines": "6",
                         "startColumns": "4",

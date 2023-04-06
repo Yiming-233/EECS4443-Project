@@ -1,5 +1,10 @@
 package ca.yorku.eecs.mack.Project4443;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Locale;
 import java.util.Random;
 import android.app.Activity;
@@ -8,8 +13,12 @@ import android.app.DialogFragment;
 import android.app.Fragment;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.Vibrator;
 import android.view.GestureDetector;
 import android.view.LayoutInflater;
@@ -19,6 +28,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /*
  * The activity to implement the quiz.  
@@ -32,25 +42,24 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 	private final static String QUESTION_INDEX_KEY = "question_index";
 	private final static String START_TIME_KEY = "start_time";
 	private final static String FIRST_ANSWER_FLAG_KEY = "first_answer_flag";
-	private final static String SHOWING_BACK_KEY = "showing_back";
 	
 	// the following are public because they are also used in ResultsDialog
 	public final static String NUMBER_CORRECT_KEY = "number_correct"; 
 	public final static String NUMBER_INCORRECT_KEY = "number_incorrect"; 																			
 	public final static String NUMBER_OF_HINTS_KEY = "number_of_hints"; 																			
-	public final static String ELAPSED_TIME_KEY = "elapsed_time"; 
-	
+	public final static String ELAPSED_TIME_KEY = "elapsed_time";
 	private final static int NUMBER_OF_ANSWERS = 4; // ... for each question in the quiz
 
 	long startTime, elapsedTime;
 	int numberCorrect, numberIncorrect, numberOfHints;
-	boolean firstAnswerFlag, showingBack;
+	boolean firstAnswerFlag, attempted;
 	String timeString;
 
 	GestureDetector gestureDetector; // use Android's GestureDetector for touch gestures
 	FrameLayout bottomView; // we need these to attach the touch listeners
 	Vibrator vib;
 	MediaPlayer click, blip, miss;
+	File file;
 
 	/*
 	 * These variables are static because they are referenced in the Fragments used to create the UI
@@ -60,7 +69,6 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 	 */
 	static int numberOfQuestions; // a Setting passed in via onCreate bundle
 	static boolean hapticandauditorymode; // Setting(passed in via onCreate bundle
-	static Flashcard[] flashcards;
 	static Question[] q;
 	static int questionIdx;
 
@@ -77,8 +85,8 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 		{
 			// data passed from the calling activity in startActivityForResult
 			Bundle b = getIntent().getExtras();
-			numberOfQuestions = b.getInt(FlashCardActivity.QUIZ_LENGTH_KEY, 1);
-			hapticandauditorymode = b.getBoolean(FlashCardActivity.QUIZ_MODE, false);
+			numberOfQuestions = b.getInt(MainActivity.QUIZ_LENGTH_KEY, 1);
+			hapticandauditorymode = b.getBoolean(MainActivity.QUIZ_MODE, false);
 
 			// init vibrator (used for incorrect answer, if enabled)
 			if (hapticandauditorymode)
@@ -99,16 +107,6 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 			// miss = MediaPlayer.create(getBaseContext(), R.raw.miss);
 
 			// load the Quotations array
-			String[] cardArray = getResources().getStringArray(R.array.flashcard);
-			flashcards = new Flashcard[cardArray.length];
-
-			// load the quotations info into an array of Quotation objects
-			for (int i = 0; i < flashcards.length; ++i)
-			{
-				String[] s = cardArray[i].split("#");
-				flashcards[i] = new Flashcard(s[0], s[1]); // NOTE: imageId not needed
-			}
-
 			/*
 			 * Creating the questions for the quiz is two-step process:
 			 * 
@@ -116,20 +114,19 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 			 * questions. This is a bit tricky because each question in the quiz must be unique.
 			 */
 			int[] temp; // an array of unique indices for the questions in the quiz
-			do
-			{
-				temp = randomArray(numberOfQuestions, flashcards.length);
-			} while (repeats(temp)); // Note: repeats(temp) will return false most of the time
-
-			/*
-			 * Second, now that we've got the indices of the quotations for the questions in the
-			 * quiz (see above), build the array of questions. Each entry in the array is an
-			 * instance of Question (which holds all the information necessary to form a question).
-			 * Consult the Question class source code for further details.
-			 */
 			q = new Question[numberOfQuestions];
-			for (int i = 0; i < q.length; ++i)
-				q[i] = new Question(temp[i], flashcards.length, NUMBER_OF_ANSWERS);
+			file = new File(QuizActivity.this.getFilesDir() + "/carddecks/question.txt");
+			if(!retriveQuestion()){//if false, i know it is first attempt，genarate question
+				attempted = false;
+				do
+				{
+					temp = randomArray(numberOfQuestions, MainActivity.words.size());
+				} while (repeats(temp)); // Note: repeats(temp) will return false most of the time
+
+				for (int i = 0; i < q.length; ++i)
+					q[i] = new Question(temp[i], NUMBER_OF_ANSWERS);
+			}
+
 
 			startTime = System.nanoTime(); // the time when the quiz started
 
@@ -140,14 +137,11 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 			 * onSaveInstanceState and onRestoreInstanceState.
 			 */
 			// questionCount = 0;
-			questionIdx = 0;
 			elapsedTime = 0;
 			numberCorrect = 0;
 			numberIncorrect = 0;
 			numberOfHints = 0;
 			firstAnswerFlag = false;
-			showingBack = false;
-			showingBack = false;
 			questionIdx = 0;
 
 			// create the UI for the quiz
@@ -219,10 +213,15 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 	 */
 	public void buttonClick(View v)
 	{
-		String correctAnswer = flashcards[q[questionIdx].cardIdx].word;
+		String correctAnswer = MainActivity.words.get(q[questionIdx].cardIdx);
+
+		Drawable originalBackground = v.getBackground();
+		ColorDrawable redBackground = new ColorDrawable(Color.RED);
+		ColorDrawable greenBackground = new ColorDrawable(Color.GREEN);
 
 		if (((Button)v).getText().equals(correctAnswer)) // correct answer
 		{
+			v.setBackground(greenBackground);
 			if (hapticandauditorymode)
 			{
 				// MediaPlayer instance created here (see comment in onCreate)
@@ -239,6 +238,7 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 		} else
 		// wrong answer
 		{
+			v.setBackground(redBackground);
 			if (hapticandauditorymode)
 			{
 				// MediaPlayer instance created here (see comment in onCreate)
@@ -254,6 +254,12 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 			}
 			showIncorrectDialog();
 		}
+		new Handler().postDelayed(new Runnable() {
+			@Override
+			public void run() {
+				v.setBackground(originalBackground);
+			}
+		}, 1000);
 	}
 
 	/*
@@ -310,9 +316,62 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 	public void onResultsDialogClick(DialogFragment dialog)
 	{
 		// The user tapped the results dialog Continue button (this quiz is done)
+		if (attempted)
+			file.delete();
+		else
+			saveQuestion();
+
 		this.finish();
 	}
 
+	public void saveQuestion(){
+		String s;
+		try {
+			FileWriter writer = new FileWriter(file,true);
+			for(int i = 0; i < q.length;i++){
+				s = q[i].cardIdx + "#" + q[i].answerArray[0]+ "#" + q[i].answerArray[1]+ "#" + q[i].answerArray[2]+ "#" + q[i].answerArray[3];
+				writer.append(s);
+				writer.append("\n");
+				writer.flush();
+			}
+			writer.close();
+		} catch (Exception e) {
+		}
+	}
+	public boolean retriveQuestion(){
+
+		if (file.exists()) {
+			try{
+				BufferedReader br = new BufferedReader(new FileReader(file));//read file
+				String line;
+				String[] s;
+				int i = 0;
+				Question temp;
+				while ((line = br.readLine()) != null) {
+					s = line.split("#");
+					temp = new Question(Integer.parseInt(s[0]),NUMBER_OF_ANSWERS);
+					for(int j = 1; j < s.length;j++)
+						temp.answerArray[j-1] = s[j];
+					q[i] = temp;
+					i++;
+				}
+				br.close();
+
+				if(q.length > 1){
+					Random r = new Random();
+					for (int j = q.length - 1; j > 0; j--) {
+						int index = r.nextInt(j + 1);
+						Question temp2 = q[index];
+						q[index] = q[j];
+						q[j] = temp2;
+					}
+				}
+				attempted = true;
+				return attempted;
+			}catch (IOException e) { }
+		}
+		return false;
+	}
 	// The dialog that pops up if the user taps the correct answer
 	private void showCorrectDialog()
 	{
@@ -363,7 +422,6 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 	public void onRestoreInstanceState(Bundle savedInstanceState)
 	{
 		super.onRestoreInstanceState(savedInstanceState);
-		q = (Question[])getLastNonConfigurationInstance(); // see onRetainConfigurationInstance
 		questionIdx = savedInstanceState.getInt(QUESTION_INDEX_KEY);
 		elapsedTime = savedInstanceState.getLong(ELAPSED_TIME_KEY);
 		startTime = savedInstanceState.getLong(START_TIME_KEY);
@@ -371,18 +429,19 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 		numberIncorrect = savedInstanceState.getInt(NUMBER_INCORRECT_KEY);
 		numberOfHints = savedInstanceState.getInt(NUMBER_OF_HINTS_KEY);
 		firstAnswerFlag = savedInstanceState.getBoolean(FIRST_ANSWER_FLAG_KEY);
-		showingBack = savedInstanceState.getBoolean(SHOWING_BACK_KEY);
-		numberOfQuestions = savedInstanceState.getInt(FlashCardActivity.QUIZ_LENGTH_KEY);
-		hapticandauditorymode = savedInstanceState.getBoolean(FlashCardActivity.QUIZ_MODE, false);
+		numberOfQuestions = savedInstanceState.getInt(MainActivity.QUIZ_LENGTH_KEY);
+		hapticandauditorymode = savedInstanceState.getBoolean(MainActivity.QUIZ_MODE, false);
 
 		if (hapticandauditorymode)
 			vib = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE); // for long-press
+
 		getFragmentManager().beginTransaction().replace(R.id.quiz_container1, new QuizAnswersFragment()).commit();
 	}
 
 	@Override
 	public void onSaveInstanceState(Bundle savedInstanceState)
 	{
+		super.onSaveInstanceState(savedInstanceState);
 		savedInstanceState.putInt(QUESTION_INDEX_KEY, questionIdx);
 		savedInstanceState.putLong(ELAPSED_TIME_KEY, elapsedTime);
 		savedInstanceState.putLong(START_TIME_KEY, startTime);
@@ -390,10 +449,9 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 		savedInstanceState.putInt(NUMBER_INCORRECT_KEY, numberIncorrect);
 		savedInstanceState.putInt(NUMBER_OF_HINTS_KEY, numberOfHints);
 		savedInstanceState.putBoolean(FIRST_ANSWER_FLAG_KEY, firstAnswerFlag);
-		savedInstanceState.putBoolean(SHOWING_BACK_KEY, showingBack);
-		savedInstanceState.putInt(FlashCardActivity.QUIZ_LENGTH_KEY, numberOfQuestions);
-		savedInstanceState.putBoolean(FlashCardActivity.QUIZ_MODE, hapticandauditorymode);
-		super.onSaveInstanceState(savedInstanceState);
+		savedInstanceState.putInt(MainActivity.QUIZ_LENGTH_KEY, numberOfQuestions);
+		savedInstanceState.putBoolean(MainActivity.QUIZ_MODE, hapticandauditorymode);
+
 	}
 
 	// ==================================================================================================
@@ -423,10 +481,10 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 			if (questionIdx == numberOfQuestions)
 				--questionIdx;
 
-			answer1View.setText(flashcards[q[questionIdx].answerArray[0]].word);
-			answer2View.setText(flashcards[q[questionIdx].answerArray[1]].word);
-			answer3View.setText(flashcards[q[questionIdx].answerArray[2]].word);
-			answer4View.setText(flashcards[q[questionIdx].answerArray[3]].word);
+			answer1View.setText(q[questionIdx].answerArray[0]);
+			answer2View.setText(q[questionIdx].answerArray[1]);
+			answer3View.setText(q[questionIdx].answerArray[2]);
+			answer4View.setText(q[questionIdx].answerArray[3]);
 
 			return quizStatusView;
 		}
@@ -457,7 +515,7 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 			if (questionIdx == numberOfQuestions)
 				--questionIdx;
 
-			quoteView.setText(flashcards[q[questionIdx].cardIdx].definition);
+			quoteView.setText(MainActivity.defs.get(q[questionIdx].cardIdx));
 			questionView.setText(R.string.quiz_question);
 			return quizQuestionView;
 		}

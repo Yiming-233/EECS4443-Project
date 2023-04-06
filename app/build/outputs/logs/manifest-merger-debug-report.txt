@@ -1,121 +1,133 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:2:1-37:12
-MERGED from [com.android.support:support-v4:27.1.0] C:\Users\LongA\.gradle\caches\transforms-3\7faebeece18a6263d0beade0c7ef9222\transformed\support-v4-27.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\LongA\.gradle\caches\transforms-3\be6d19f8ab202dea6c06b3050c00a586\transformed\support-media-compat-27.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\LongA\.gradle\caches\transforms-3\b885c2a003b6da8024d7172a17de853e\transformed\support-fragment-27.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\LongA\.gradle\caches\transforms-3\e61a0d532b76c2c887eeb9f8ef29c86c\transformed\support-core-ui-27.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\LongA\.gradle\caches\transforms-3\7967a80e88c60042eaf651b3ce8c4362\transformed\support-core-utils-27.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.0] C:\Users\LongA\.gradle\caches\transforms-3\b614c4b514087bbd4477484795f1df71\transformed\support-compat-27.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\LongA\.gradle\caches\transforms-3\34139a051d0fe92a4dc254d6528b8082\transformed\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\LongA\.gradle\caches\transforms-3\3c1989fa8adc4563c0235d4167f3280c\transformed\livedata-core-1.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\LongA\.gradle\caches\transforms-3\fd7b7403f415e5b89c0fc978fc3fe4b1\transformed\viewmodel-1.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\LongA\.gradle\caches\transforms-3\2df31dbced21a1bff3c4067e4ee808a2\transformed\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:2:1-37:12
+ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:2:1-45:12
+MERGED from [com.android.support:support-v4:27.1.0] D:\((york))\android2\.gradle\caches\transforms-3\7faebeece18a6263d0beade0c7ef9222\transformed\support-v4-27.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] D:\((york))\android2\.gradle\caches\transforms-3\be6d19f8ab202dea6c06b3050c00a586\transformed\support-media-compat-27.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.0] D:\((york))\android2\.gradle\caches\transforms-3\b885c2a003b6da8024d7172a17de853e\transformed\support-fragment-27.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] D:\((york))\android2\.gradle\caches\transforms-3\e61a0d532b76c2c887eeb9f8ef29c86c\transformed\support-core-ui-27.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] D:\((york))\android2\.gradle\caches\transforms-3\7967a80e88c60042eaf651b3ce8c4362\transformed\support-core-utils-27.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] D:\((york))\android2\.gradle\caches\transforms-3\b614c4b514087bbd4477484795f1df71\transformed\support-compat-27.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] D:\((york))\android2\.gradle\caches\transforms-3\34139a051d0fe92a4dc254d6528b8082\transformed\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] D:\((york))\android2\.gradle\caches\transforms-3\3c1989fa8adc4563c0235d4167f3280c\transformed\livedata-core-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] D:\((york))\android2\.gradle\caches\transforms-3\fd7b7403f415e5b89c0fc978fc3fe4b1\transformed\viewmodel-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] D:\((york))\android2\.gradle\caches\transforms-3\2df31dbced21a1bff3c4067e4ee808a2\transformed\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:2:1-45:12
 	package
-		INJECTED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:2:1-37:12
-		INJECTED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml
+		INJECTED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:2:1-45:12
+		INJECTED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:4:5-30
-		INJECTED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml
+		INJECTED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:3:5-28
-		INJECTED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml
+		INJECTED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:6:5-66
+ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:6:5-66
 	android:name
-		ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:6:22-63
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:6:22-63
 application
-ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:8:5-35:19
+ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:8:5-43:19
 	android:label
-		ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:11:9-41
 	android:icon
-		ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:9:9-36
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:9:9-36
 	android:theme
-		ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:12:9-50
-activity#ca.yorku.eecs.mack.Project4443.FlashCardActivity
-ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:13:9-22:20
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:12:9-50
+activity#ca.yorku.eecs.mack.Project4443.MainActivity
+ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:13:9-22:20
 	android:label
-		ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:15:13-45
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:15:13-45
 	android:exported
-		ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:16:13-36
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:16:13-36
 	android:name
-		ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:14:13-76
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:14:13-71
 intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:18:25-66
 action#android.intent.action.VIEW
-ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:20:27-74
+activity#ca.yorku.eecs.mack.Project4443.FlashCardActivity
+ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:23:9-26:20
+	android:label
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:25:13-45
+	android:name
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:24:13-76
 activity#ca.yorku.eecs.mack.Project4443.QuizActivity
-ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:23:9-26:20
+ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:27:9-30:20
 	android:label
-		ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:25:13-45
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:29:13-45
 	android:name
-		ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:24:13-71
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:28:13-71
 activity#ca.yorku.eecs.mack.Project4443.SettingsActivity
-ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:27:9-30:20
+ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:31:9-34:20
 	android:label
-		ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:29:13-45
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:33:13-45
 	android:name
-		ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:28:13-75
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:32:13-75
 activity#ca.yorku.eecs.mack.Project4443.AddCard
-ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:31:9-34:20
+ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:35:9-38:20
 	android:label
-		ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:33:13-45
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:37:13-45
 	android:name
-		ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml:32:13-66
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:36:13-66
+activity#ca.yorku.eecs.mack.Project4443.SearchableActivity
+ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:39:9-42:20
+	android:label
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:41:13-45
+	android:name
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:40:13-77
 uses-sdk
-INJECTED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:support-v4:27.1.0] C:\Users\LongA\.gradle\caches\transforms-3\7faebeece18a6263d0beade0c7ef9222\transformed\support-v4-27.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.0] C:\Users\LongA\.gradle\caches\transforms-3\7faebeece18a6263d0beade0c7ef9222\transformed\support-v4-27.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\LongA\.gradle\caches\transforms-3\be6d19f8ab202dea6c06b3050c00a586\transformed\support-media-compat-27.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\LongA\.gradle\caches\transforms-3\be6d19f8ab202dea6c06b3050c00a586\transformed\support-media-compat-27.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\LongA\.gradle\caches\transforms-3\b885c2a003b6da8024d7172a17de853e\transformed\support-fragment-27.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\LongA\.gradle\caches\transforms-3\b885c2a003b6da8024d7172a17de853e\transformed\support-fragment-27.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\LongA\.gradle\caches\transforms-3\e61a0d532b76c2c887eeb9f8ef29c86c\transformed\support-core-ui-27.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\LongA\.gradle\caches\transforms-3\e61a0d532b76c2c887eeb9f8ef29c86c\transformed\support-core-ui-27.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\LongA\.gradle\caches\transforms-3\7967a80e88c60042eaf651b3ce8c4362\transformed\support-core-utils-27.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\LongA\.gradle\caches\transforms-3\7967a80e88c60042eaf651b3ce8c4362\transformed\support-core-utils-27.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.0] C:\Users\LongA\.gradle\caches\transforms-3\b614c4b514087bbd4477484795f1df71\transformed\support-compat-27.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.0] C:\Users\LongA\.gradle\caches\transforms-3\b614c4b514087bbd4477484795f1df71\transformed\support-compat-27.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\LongA\.gradle\caches\transforms-3\34139a051d0fe92a4dc254d6528b8082\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\LongA\.gradle\caches\transforms-3\34139a051d0fe92a4dc254d6528b8082\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\LongA\.gradle\caches\transforms-3\3c1989fa8adc4563c0235d4167f3280c\transformed\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\LongA\.gradle\caches\transforms-3\3c1989fa8adc4563c0235d4167f3280c\transformed\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\LongA\.gradle\caches\transforms-3\fd7b7403f415e5b89c0fc978fc3fe4b1\transformed\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\LongA\.gradle\caches\transforms-3\fd7b7403f415e5b89c0fc978fc3fe4b1\transformed\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\LongA\.gradle\caches\transforms-3\2df31dbced21a1bff3c4067e4ee808a2\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\LongA\.gradle\caches\transforms-3\2df31dbced21a1bff3c4067e4ee808a2\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml
+INJECTED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml
+INJECTED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v4:27.1.0] D:\((york))\android2\.gradle\caches\transforms-3\7faebeece18a6263d0beade0c7ef9222\transformed\support-v4-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] D:\((york))\android2\.gradle\caches\transforms-3\7faebeece18a6263d0beade0c7ef9222\transformed\support-v4-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] D:\((york))\android2\.gradle\caches\transforms-3\be6d19f8ab202dea6c06b3050c00a586\transformed\support-media-compat-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] D:\((york))\android2\.gradle\caches\transforms-3\be6d19f8ab202dea6c06b3050c00a586\transformed\support-media-compat-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] D:\((york))\android2\.gradle\caches\transforms-3\b885c2a003b6da8024d7172a17de853e\transformed\support-fragment-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] D:\((york))\android2\.gradle\caches\transforms-3\b885c2a003b6da8024d7172a17de853e\transformed\support-fragment-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] D:\((york))\android2\.gradle\caches\transforms-3\e61a0d532b76c2c887eeb9f8ef29c86c\transformed\support-core-ui-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] D:\((york))\android2\.gradle\caches\transforms-3\e61a0d532b76c2c887eeb9f8ef29c86c\transformed\support-core-ui-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] D:\((york))\android2\.gradle\caches\transforms-3\7967a80e88c60042eaf651b3ce8c4362\transformed\support-core-utils-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] D:\((york))\android2\.gradle\caches\transforms-3\7967a80e88c60042eaf651b3ce8c4362\transformed\support-core-utils-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] D:\((york))\android2\.gradle\caches\transforms-3\b614c4b514087bbd4477484795f1df71\transformed\support-compat-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] D:\((york))\android2\.gradle\caches\transforms-3\b614c4b514087bbd4477484795f1df71\transformed\support-compat-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] D:\((york))\android2\.gradle\caches\transforms-3\34139a051d0fe92a4dc254d6528b8082\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] D:\((york))\android2\.gradle\caches\transforms-3\34139a051d0fe92a4dc254d6528b8082\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] D:\((york))\android2\.gradle\caches\transforms-3\3c1989fa8adc4563c0235d4167f3280c\transformed\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] D:\((york))\android2\.gradle\caches\transforms-3\3c1989fa8adc4563c0235d4167f3280c\transformed\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] D:\((york))\android2\.gradle\caches\transforms-3\fd7b7403f415e5b89c0fc978fc3fe4b1\transformed\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] D:\((york))\android2\.gradle\caches\transforms-3\fd7b7403f415e5b89c0fc978fc3fe4b1\transformed\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] D:\((york))\android2\.gradle\caches\transforms-3\2df31dbced21a1bff3c4067e4ee808a2\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] D:\((york))\android2\.gradle\caches\transforms-3\2df31dbced21a1bff3c4067e4ee808a2\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+INJECTED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml
+INJECTED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml
+		INJECTED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml
+		INJECTED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\LongA\Documents\EECS4443\Project4443\app\src\main\AndroidManifest.xml
+		INJECTED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml
+		INJECTED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml

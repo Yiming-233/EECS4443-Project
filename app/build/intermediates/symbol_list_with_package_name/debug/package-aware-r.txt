@@ -59,6 +59,7 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+drawable background_image
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -71,6 +72,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+id AddCardButton
+id StartQuizButton
+id ViewCardButton
 id action0
 id action_container
 id action_divider
@@ -80,6 +84,7 @@ id actions
 id addButton
 id all
 id async
+id back
 id blocking
 id bottom
 id cancel_action
@@ -108,6 +113,7 @@ id italic
 id left
 id line1
 id line3
+id list_view
 id media_actions
 id none
 id normal
@@ -127,6 +133,7 @@ id results_layout
 id right
 id right_icon
 id right_side
+id search_view
 id start
 id status_bar_latest_event_content
 id tag_transition_group
@@ -144,6 +151,7 @@ integer card_flip_time_half
 integer card_slide_time
 integer status_bar_notification_info_maxnum
 layout definition
+layout flashcard
 layout main
 layout main_quiz
 layout makecard
@@ -165,6 +173,7 @@ layout notification_template_part_time
 layout quiz_answer
 layout quiz_question
 layout results_dialog
+layout search
 layout word
 mipmap ic_launcher
 mipmap ic_launcher_foreground
@@ -182,9 +191,7 @@ string image_description
 string incorrect_label
 string incorrect_title
 string menu_add
-string menu_deck
 string menu_delete
-string menu_quiz
 string menu_settings
 string menu_title
 string number_of_hints_label

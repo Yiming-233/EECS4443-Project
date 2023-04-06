@@ -1,5 +1,6 @@
 package ca.yorku.eecs.mack.Project4443;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 /*
@@ -14,45 +15,57 @@ import java.util.Random;
 public class Question
 {
 	int cardIdx; // index in quotation array of the quote for the question.
-	int[] answerArray; // the array of possible answers (also indices)
+	String[] answerArray; // the array of possible answers (also indices)
 	int answerArrayCorrectIdx; // the index in the answer array of the correct answer
 	Random r;
-	int range, numberOfAnswers;
+	int numberOfAnswers;
 
-	Question(int cardIdxxArg, int rangeArg, int numberOfAnswersArg)
+	Question(int cardIdxxArg, int numberOfAnswersArg)
 	{
+		String word = MainActivity.words.get(cardIdxxArg);
 		cardIdx = cardIdxxArg;
-		range = rangeArg;
 		numberOfAnswers = numberOfAnswersArg;
 
 		r = new Random();
 
 		// create an array of answers (indices into the quotation array)
-		answerArray = new int[numberOfAnswers];
+		answerArray = new String[numberOfAnswers];
 
 		// fill the answer array with unique and wrong random indices
-		for (int n : answerArray)
+		do
 		{
-			do
-			{
-				fillRandom();
-			} while (repeats()); 
-		}
+			fillRandom(word);
+		} while (repeats());
 
 		// replace one of the entries with the idx of the correct answer
 		answerArrayCorrectIdx = r.nextInt(numberOfAnswers);
-		answerArray[answerArrayCorrectIdx] = cardIdx;
+		answerArray[answerArrayCorrectIdx] = word;
 	}
 
-	// fill the answer array with indices drawn at random for the array of quotations.
-	private void fillRandom()
+	// randomize the order of string.
+	private void fillRandom(String word)
 	{
+		StringBuilder sb = new StringBuilder(word);
+		String shuffledStr;
+		char randomChar;
+		int remain = 4 - word.length();
+
+		if(remain >0){//if the word length < 4, add random char to make it longer
+			for (int i = 0; i < remain; i++){
+				randomChar = (char)(r.nextInt(26) + 'a');
+				sb.append(randomChar);
+			}
+		}
+
 		for (int i = 0; i < answerArray.length; ++i)
 		{
-			do
-			{
-				answerArray[i] = r.nextInt(range);
-			} while (answerArray[i] == cardIdx); // exclude the index of the answer
+			for (int j = sb.length() - 1; j > 0; j--) {
+				int k = r.nextInt(j + 1);
+				char temp = sb.charAt(j);
+				sb.setCharAt(j, sb.charAt(k));
+				sb.setCharAt(k, temp);
+			}
+			answerArray[i]=sb.toString();
 		}
 	}
 

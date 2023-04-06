@@ -8,24 +8,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-
-import java.io.File;
 import java.io.FileWriter;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
 
 public class AddCard extends Activity implements View.OnClickListener {
     EditText word;
     EditText def;
-    Button addB;
+    Button addB,backB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -35,18 +23,44 @@ public class AddCard extends Activity implements View.OnClickListener {
         word = (EditText)findViewById(R.id.wordText);
         def = (EditText)findViewById(R.id.defText);
         addB = (Button)findViewById(R.id.addButton);
+        backB = (Button)findViewById(R.id.back);
         addB.setOnClickListener(this);
+        backB.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v){
-        String newWord = String.valueOf(word.getText());
-        String newDef = String.valueOf(def.getText());
+        if(v == addB){//if user finish adding card
+            String newWord = String.valueOf(word.getText());
+            String newDef = String.valueOf(def.getText());
 
-        Intent i = new Intent();
-        i.putExtra("word",newWord);
-        i.putExtra("def",newDef);
-        setResult(Activity.RESULT_OK, i);
-        finish();
+            if(!newWord.isEmpty() && !newDef.isEmpty()){
+                MainActivity.words.add(newWord);
+                MainActivity.defs.add(newDef);
+                String s = newWord + "#"+newDef;
+                addCard(s);
+            }
+            else
+                Toast.makeText(AddCard.this, "Your word or definition is empty", Toast.LENGTH_LONG).show();
+
+        }
+        else
+            finish();
+    }
+
+    private void addCard(String newWord){
+        if (newWord != "") {
+            try {
+                FileWriter writer = new FileWriter(MainActivity.file,true);
+                writer.append(newWord);
+                writer.append("\n");
+                writer.flush();
+                writer.close();
+                Toast.makeText(AddCard.this, "Saved your flashcard", Toast.LENGTH_LONG).show();
+                word.setText("");
+                def.setText("");
+            } catch (Exception e) {
+            }
+        }
     }
 }
