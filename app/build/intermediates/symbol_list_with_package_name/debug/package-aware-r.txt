@@ -84,7 +84,6 @@ id actions
 id addButton
 id all
 id async
-id back
 id blocking
 id bottom
 id cancel_action
@@ -94,11 +93,11 @@ id center_vertical
 id chronometer
 id clip_horizontal
 id clip_vertical
+id complete_time_value
 id container
 id correct_value
 id defText
 id definition
-id elapsed_time_value
 id end
 id end_padder
 id fill
@@ -120,7 +119,6 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
-id number_of_hints_value
 id quiz_answer_1
 id quiz_answer_2
 id quiz_answer_3
@@ -182,11 +180,11 @@ raw blip
 raw click
 raw miss
 string app_name
+string complete_time_label
 string continue_string
 string correct_label
 string correct_title
 string def
-string elapsed_time_label
 string image_description
 string incorrect_label
 string incorrect_title
@@ -194,7 +192,6 @@ string menu_add
 string menu_delete
 string menu_settings
 string menu_title
-string number_of_hints_label
 string ppref_quiz_mode_title
 string pref_quiz_length_key
 string pref_quiz_length_summary

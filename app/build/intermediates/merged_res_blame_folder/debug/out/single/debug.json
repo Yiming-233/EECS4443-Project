@@ -1,194 +1,198 @@
 [
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/layout-land_makecard.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/layout-land/makecard.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\animator_view_appear_enter.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\animator\\view_appear_enter.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/animator_view_appear_enter.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/animator/view_appear_enter.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\layout-land_main_quiz.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\layout-land\\main_quiz.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\layout_results_dialog.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\layout\\results_dialog.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/mipmap-xhdpi/ic_launcher_foreground.png"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\layout_word.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\layout\\word.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/animator_view_flip_enter.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/animator/view_flip_enter.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/animator_view_slide_right_exit.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/animator/view_slide_right_exit.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\layout_main_quiz.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\layout\\main_quiz.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/raw_blip.wav.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/raw/blip.wav"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/layout-land_quiz_question.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/layout-land/quiz_question.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\animator_view_flip_exit.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\animator\\view_flip_exit.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/layout-land_quiz_answer.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/layout-land/quiz_answer.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\layout-land_quiz_answer.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\layout-land\\quiz_answer.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\drawable_background_image.png.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\drawable\\background_image.png"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/animator_view_slide_right_enter.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/animator/view_slide_right_enter.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\animator_view_slide_left_enter.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\animator\\view_slide_left_enter.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\layout_flashcard.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\layout\\flashcard.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/layout_makecard.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/layout/makecard.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\layout_makecard.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\layout\\makecard.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/layout_definition.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/layout/definition.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\layout_search.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\layout\\search.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/animator_view_slide_left_enter.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/animator/view_slide_left_enter.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/layout_main_quiz.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/layout/main_quiz.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\layout-land_word.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\layout-land\\word.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\layout_quiz_answer.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\layout\\quiz_answer.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/animator_view_appear_exit.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/animator/view_appear_exit.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/layout_main.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/layout/main.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\raw_click.wav.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\raw\\click.wav"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/mipmap-mdpi/ic_launcher.png"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/layout-land_word.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/layout-land/word.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/raw_click.wav.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/raw/click.wav"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\animator_view_slide_right_enter.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\animator\\view_slide_right_enter.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/xml_preferences.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/xml/preferences.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\layout_definition.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\layout\\definition.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\layout-land_makecard.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\layout-land\\makecard.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\raw_miss.wav.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\raw\\miss.wav"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/layout_search.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/layout/search.xml"
-    },
-    {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/layout-land_main_quiz.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/layout-land/main_quiz.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/layout_results_dialog.xml.flat",
         "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/layout/results_dialog.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/mipmap-hdpi/ic_launcher.png"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\layout-land_definition.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\layout-land\\definition.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/layout-land_flashcard.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/layout-land/flashcard.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\xml_preferences.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\xml\\preferences.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/raw_miss.wav.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/raw/miss.wav"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/layout-land_definition.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/layout-land/definition.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\animator_view_slide_right_exit.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\animator\\view_slide_right_exit.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\animator_view_flip_enter.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\animator\\view_flip_enter.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\animator_view_appear_exit.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\animator\\view_appear_exit.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/drawable_background_image.png.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/drawable/background_image.png"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\layout_quiz_question.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\layout\\quiz_question.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/layout_word.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/layout/word.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\layout-land_quiz_question.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\layout-land\\quiz_question.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/layout_quiz_question.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/layout/quiz_question.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\layout_main.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\layout\\main.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/animator_view_slide_left_exit.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/animator/view_slide_left_exit.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\animator_view_slide_left_exit.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\animator\\view_slide_left_exit.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/layout_flashcard.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/layout/flashcard.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/layout-land_main.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/layout-land/main.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\layout-land_flashcard.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\layout-land\\flashcard.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/layout_quiz_answer.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/layout/quiz_answer.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\layout-land_main.xml.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\layout-land\\main.xml"
     },
     {
-        "merged": "ca.yorku.eecs.mack.Project4443.app-merged_res-5:/animator_view_flip_exit.xml.flat",
-        "source": "ca.yorku.eecs.mack.Project4443.app-main-7:/animator/view_flip_exit.xml"
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-merged_res-5:\\raw_blip.wav.flat",
+        "source": "D:\\((york))\\android2\\.gradle\\daemon\\7.4\\ca.yorku.eecs.mack.Project4443.app-main-7:\\raw\\blip.wav"
     }
 ]

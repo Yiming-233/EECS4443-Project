@@ -13,7 +13,7 @@ import java.io.FileWriter;
 public class AddCard extends Activity implements View.OnClickListener {
     EditText word;
     EditText def;
-    Button addB,backB;
+    Button addB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -23,29 +23,24 @@ public class AddCard extends Activity implements View.OnClickListener {
         word = (EditText)findViewById(R.id.wordText);
         def = (EditText)findViewById(R.id.defText);
         addB = (Button)findViewById(R.id.addButton);
-        backB = (Button)findViewById(R.id.back);
         addB.setOnClickListener(this);
-        backB.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v){
-        if(v == addB){//if user finish adding card
-            String newWord = String.valueOf(word.getText());
-            String newDef = String.valueOf(def.getText());
+        String newWord = String.valueOf(word.getText());
+        String newDef = String.valueOf(def.getText());
 
-            if(!newWord.isEmpty() && !newDef.isEmpty()){
-                MainActivity.words.add(newWord);
-                MainActivity.defs.add(newDef);
-                String s = newWord + "#"+newDef;
-                addCard(s);
-            }
-            else
-                Toast.makeText(AddCard.this, "Your word or definition is empty", Toast.LENGTH_LONG).show();
-
+        if(!newWord.isEmpty() && !newDef.isEmpty()){
+            String s = newWord + "#"+newDef;
+            MainActivity.words.add(newWord);
+            MainActivity.defs.add(newDef);
+            MainActivity.backup.add(s);
+            addCard(s);
         }
         else
-            finish();
+            Toast.makeText(AddCard.this, "Your word or definition is empty", Toast.LENGTH_LONG).show();
+
     }
 
     private void addCard(String newWord){

@@ -83,7 +83,6 @@ int id actions 0x7f080008
 int id addButton 0x7f080009
 int id all 0x7f08000a
 int id async 0x7f08000b
-int id back 0x7f08000c
 int id blocking 0x7f08000d
 int id bottom 0x7f08000e
 int id cancel_action 0x7f08000f
@@ -93,11 +92,11 @@ int id center_vertical 0x7f080012
 int id chronometer 0x7f080013
 int id clip_horizontal 0x7f080014
 int id clip_vertical 0x7f080015
+int id complete_time_value 0x7f080048
 int id container 0x7f080016
 int id correct_value 0x7f080017
 int id defText 0x7f080018
 int id definition 0x7f080019
-int id elapsed_time_value 0x7f08001a
 int id end 0x7f08001b
 int id end_padder 0x7f08001c
 int id fill 0x7f08001d
@@ -119,7 +118,6 @@ int id normal 0x7f08002c
 int id notification_background 0x7f08002d
 int id notification_main_column 0x7f08002e
 int id notification_main_column_container 0x7f08002f
-int id number_of_hints_value 0x7f080030
 int id quiz_answer_1 0x7f080031
 int id quiz_answer_2 0x7f080032
 int id quiz_answer_3 0x7f080033
@@ -181,11 +179,11 @@ int raw blip 0x7f0c0000
 int raw click 0x7f0c0001
 int raw miss 0x7f0c0002
 int string app_name 0x7f0d0000
+int string complete_time_label 0x7f0d0019
 int string continue_string 0x7f0d0001
 int string correct_label 0x7f0d0002
 int string correct_title 0x7f0d0003
 int string def 0x7f0d0004
-int string elapsed_time_label 0x7f0d0005
 int string image_description 0x7f0d0006
 int string incorrect_label 0x7f0d0007
 int string incorrect_title 0x7f0d0008
@@ -193,7 +191,6 @@ int string menu_add 0x7f0d0009
 int string menu_delete 0x7f0d000a
 int string menu_settings 0x7f0d000b
 int string menu_title 0x7f0d000c
-int string number_of_hints_label 0x7f0d000d
 int string ppref_quiz_mode_title 0x7f0d000e
 int string pref_quiz_length_key 0x7f0d000f
 int string pref_quiz_length_summary 0x7f0d0010

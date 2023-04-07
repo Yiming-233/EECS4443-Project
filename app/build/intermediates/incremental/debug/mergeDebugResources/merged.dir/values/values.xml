@@ -67,11 +67,11 @@
     <integer name="card_slide_time">300</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="app_name">Project4443_FlashCard</string>
+    <string name="complete_time_label">Complete time:</string>
     <string name="continue_string">Continue</string>
     <string name="correct_label">Correct:</string>
     <string name="correct_title">Correct!</string>
     <string name="def">Definition:</string>
-    <string name="elapsed_time_label">Elapsed time:</string>
     <string name="image_description">(image)</string>
     <string name="incorrect_label">Incorrect:</string>
     <string name="incorrect_title">Sorry!</string>
@@ -79,7 +79,6 @@
     <string name="menu_delete">Delete</string>
     <string name="menu_settings">Settings</string>
     <string name="menu_title">Words</string>
-    <string name="number_of_hints_label">Number of hints:</string>
     <string name="ppref_quiz_mode_title">haptic and auditory</string>
     <string name="pref_quiz_length_key">questions</string>
     <string name="pref_quiz_length_summary">Select the number of questions in a quiz</string>

@@ -94,11 +94,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
 
     private void readFile() {
-        if(hapticandauditorymode){//if true, i know use is in second trial mode, read the second list
-            file = new File(MainActivity.this.getFilesDir() + "/carddecks/cards2.txt");
-        }
-        else
-            file = new File(MainActivity.this.getFilesDir() + "/carddecks/cards1.txt");
+        file = new File(MainActivity.this.getFilesDir() + "/carddecks/cards.txt");
 
         try {
             words = new ArrayList<String>();
@@ -134,22 +130,28 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         }
         else if(view == quiz){
-            if(words.isEmpty()){
+            File temp = new File(MainActivity.this.getFilesDir() + "/carddecks/question.txt");
+            if(temp.exists()){
+                startQuiz();
+            }
+            else if(words.isEmpty()){
                 Toast.makeText(this, "You need at least 1 flashcard to start the quiz", Toast.LENGTH_LONG).show();
             }else if(words.size() < numberOfQuestions){
                 Toast.makeText(this, "You need at least " +numberOfQuestions +" flashcards to start the quiz", Toast.LENGTH_LONG).show();
             }
             else{
-                final Bundle b = new Bundle();
-                b.putInt(QUIZ_LENGTH_KEY, numberOfQuestions);
-                b.putBoolean(QUIZ_MODE, hapticandauditorymode);
-
-                Intent quizIntent = new Intent(getApplicationContext(), QuizActivity.class);
-                quizIntent.putExtras(b);
-                quizIntent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
-                startActivity(quizIntent);
+                startQuiz();
             }
         }
+    }
+    public void startQuiz(){
+        final Bundle b = new Bundle();
+        b.putInt(QUIZ_LENGTH_KEY, numberOfQuestions);
+        b.putBoolean(QUIZ_MODE, hapticandauditorymode);
+        Intent quizIntent = new Intent(getApplicationContext(), QuizActivity.class);
+        quizIntent.putExtras(b);
+        quizIntent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+        startActivity(quizIntent);
     }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data)

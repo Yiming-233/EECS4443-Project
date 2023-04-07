@@ -173,7 +173,7 @@ public class FlashCardActivity extends Activity implements View.OnTouchListener{
 
     private void nextWord() {
         if (!MainActivity.words.isEmpty())
-        if(cardIdx != MainActivity.words.size() -1)
+        if(cardIdx < MainActivity.words.size() -1)
             cardIdx++;
         else
             cardIdx = 0;
@@ -200,7 +200,7 @@ public class FlashCardActivity extends Activity implements View.OnTouchListener{
                         writer.flush();
                     }
                     writer.close();
-                    Toast.makeText(FlashCardActivity.this, "Saved your flashcard", Toast.LENGTH_LONG).show();
+                    Toast.makeText(FlashCardActivity.this, "Flashcard is deleted", Toast.LENGTH_LONG).show();
                 } catch (Exception e) {
                 }
             } else {

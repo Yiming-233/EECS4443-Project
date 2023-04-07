@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.util.Locale;
 import java.util.Random;
 import android.app.Activity;
@@ -47,7 +48,7 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 	public final static String NUMBER_CORRECT_KEY = "number_correct"; 
 	public final static String NUMBER_INCORRECT_KEY = "number_incorrect"; 																			
 	public final static String NUMBER_OF_HINTS_KEY = "number_of_hints"; 																			
-	public final static String ELAPSED_TIME_KEY = "elapsed_time";
+	public final static String COMPLIATION_TIME_KEY = "compilation_time";
 	private final static int NUMBER_OF_ANSWERS = 4; // ... for each question in the quiz
 
 	long startTime, elapsedTime;
@@ -89,8 +90,10 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 			hapticandauditorymode = b.getBoolean(MainActivity.QUIZ_MODE, false);
 
 			// init vibrator (used for incorrect answer, if enabled)
-			if (hapticandauditorymode)
+			if (hapticandauditorymode){
 				vib = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);
+			}
+
 
 			/*
 			 * Initializing the MediaPlayer object is simple enough (see below). However, calls to
@@ -114,10 +117,11 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 			 * questions. This is a bit tricky because each question in the quiz must be unique.
 			 */
 			int[] temp; // an array of unique indices for the questions in the quiz
-			q = new Question[numberOfQuestions];
+
 			file = new File(QuizActivity.this.getFilesDir() + "/carddecks/question.txt");
 			if(!retriveQuestion()){//if false, i know it is first attempt，genarate question
 				attempted = false;
+				q = new Question[numberOfQuestions];
 				do
 				{
 					temp = randomArray(numberOfQuestions, MainActivity.words.size());
@@ -217,11 +221,9 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 
 		Drawable originalBackground = v.getBackground();
 		ColorDrawable redBackground = new ColorDrawable(Color.RED);
-		ColorDrawable greenBackground = new ColorDrawable(Color.GREEN);
 
 		if (((Button)v).getText().equals(correctAnswer)) // correct answer
 		{
-			v.setBackground(greenBackground);
 			if (hapticandauditorymode)
 			{
 				// MediaPlayer instance created here (see comment in onCreate)
@@ -234,7 +236,6 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 				firstAnswerFlag = true;
 			}
 			showCorrectDialog();
-
 		} else
 		// wrong answer
 		{
@@ -252,14 +253,15 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 				++numberIncorrect;
 				firstAnswerFlag = true;
 			}
-			showIncorrectDialog();
+			new Handler().postDelayed(new Runnable() {
+				@Override
+				public void run() {
+					v.setBackground(originalBackground);
+				}
+			}, 1000);
+			//showIncorrectDialog();
 		}
-		new Handler().postDelayed(new Runnable() {
-			@Override
-			public void run() {
-				v.setBackground(originalBackground);
-			}
-		}, 1000);
+
 	}
 
 	/*
@@ -347,6 +349,8 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 				String[] s;
 				int i = 0;
 				Question temp;
+				int lines = (int) Files.lines(file.toPath()).count();
+				q = new Question[lines];
 				while ((line = br.readLine()) != null) {
 					s = line.split("#");
 					temp = new Question(Integer.parseInt(s[0]),NUMBER_OF_ANSWERS);
@@ -356,7 +360,7 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 					i++;
 				}
 				br.close();
-
+				numberOfQuestions = q.length;
 				if(q.length > 1){
 					Random r = new Random();
 					for (int j = q.length - 1; j > 0; j--) {
@@ -423,7 +427,7 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 	{
 		super.onRestoreInstanceState(savedInstanceState);
 		questionIdx = savedInstanceState.getInt(QUESTION_INDEX_KEY);
-		elapsedTime = savedInstanceState.getLong(ELAPSED_TIME_KEY);
+		elapsedTime = savedInstanceState.getLong(COMPLIATION_TIME_KEY);
 		startTime = savedInstanceState.getLong(START_TIME_KEY);
 		numberCorrect = savedInstanceState.getInt(NUMBER_CORRECT_KEY);
 		numberIncorrect = savedInstanceState.getInt(NUMBER_INCORRECT_KEY);
@@ -443,7 +447,7 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 	{
 		super.onSaveInstanceState(savedInstanceState);
 		savedInstanceState.putInt(QUESTION_INDEX_KEY, questionIdx);
-		savedInstanceState.putLong(ELAPSED_TIME_KEY, elapsedTime);
+		savedInstanceState.putLong(COMPLIATION_TIME_KEY, elapsedTime);
 		savedInstanceState.putLong(START_TIME_KEY, startTime);
 		savedInstanceState.putInt(NUMBER_CORRECT_KEY, numberCorrect);
 		savedInstanceState.putInt(NUMBER_INCORRECT_KEY, numberIncorrect);

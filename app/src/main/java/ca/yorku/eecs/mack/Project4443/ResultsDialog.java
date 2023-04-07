@@ -54,8 +54,7 @@ public class ResultsDialog extends DialogFragment
 		Bundle b = new Bundle();
 		b.putInt(QuizActivity.NUMBER_CORRECT_KEY, numberCorrect);
 		b.putInt(QuizActivity.NUMBER_INCORRECT_KEY, numberIncorrect);
-		b.putInt(QuizActivity.NUMBER_OF_HINTS_KEY, numberOfHints);
-		b.putString(QuizActivity.ELAPSED_TIME_KEY, timeString);
+		b.putString(QuizActivity.COMPLIATION_TIME_KEY, timeString);
 
 		// set the bundle as the "arguments" for the dialog
 		rd.setArguments(b);
@@ -70,8 +69,7 @@ public class ResultsDialog extends DialogFragment
 		// get the data from the "arguments" bundle
 		int numberCorrect = getArguments().getInt(QuizActivity.NUMBER_CORRECT_KEY);
 		int numberIncorrect = getArguments().getInt(QuizActivity.NUMBER_INCORRECT_KEY);
-		int numberOfHints = getArguments().getInt(QuizActivity.NUMBER_OF_HINTS_KEY);
-		String timeString = getArguments().getString(QuizActivity.ELAPSED_TIME_KEY);
+		String timeString = getArguments().getString(QuizActivity.COMPLIATION_TIME_KEY);
 
 		// get the layout inflater
 		LayoutInflater inflater = getActivity().getLayoutInflater();
@@ -82,8 +80,7 @@ public class ResultsDialog extends DialogFragment
 		// get the views and give them the content
 		((TextView)view.findViewById(R.id.correct_value)).setText(String.format("%d", numberCorrect));
 		((TextView)view.findViewById(R.id.incorrect_value)).setText(String.format("%d", numberIncorrect));
-		((TextView)view.findViewById(R.id.number_of_hints_value)).setText(String.format("%d", numberOfHints));
-		((TextView)view.findViewById(R.id.elapsed_time_value)).setText(timeString);
+		((TextView)view.findViewById(R.id.complete_time_value)).setText(timeString);
 
 		// build the dialog and set up the button click handler
 		AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
