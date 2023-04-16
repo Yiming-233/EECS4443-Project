@@ -122,10 +122,12 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 			if(!retriveQuestion()){//if false, i know it is first attempt，genarate question
 				attempted = false;
 				q = new Question[numberOfQuestions];
-				do
-				{
-					temp = randomArray(numberOfQuestions, MainActivity.words.size());
-				} while (repeats(temp)); // Note: repeats(temp) will return false most of the time
+				temp = randomArray(numberOfQuestions, MainActivity.words.size());
+				//disabled for testing
+//				do
+//				{
+//					temp = randomArray(numberOfQuestions, MainActivity.words.size());
+//				} while (repeats(temp)); // Note: repeats(temp) will return false most of the time
 
 				for (int i = 0; i < q.length; ++i)
 					q[i] = new Question(temp[i], NUMBER_OF_ANSWERS);
@@ -388,21 +390,6 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 					{
 						dialog.cancel(); // close this dialog
 						nextQuestion();
-					}
-				}).show();
-	}
-
-	// The dialog that pops up if the user guesses incorrectly
-	private void showIncorrectDialog()
-	{
-		// Initialize the dialog
-		AlertDialog.Builder parameters = new AlertDialog.Builder(this);
-		parameters.setCancelable(false).setTitle(R.string.incorrect_title).setNeutralButton(R.string.try_again,
-				new DialogInterface.OnClickListener()
-				{
-					public void onClick(DialogInterface dialog, int id)
-					{
-						dialog.cancel(); // close this dialog
 					}
 				}).show();
 	}

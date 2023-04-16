@@ -7,7 +7,6 @@ animator view_slide_left_enter
 animator view_slide_left_exit
 animator view_slide_right_enter
 animator view_slide_right_exit
-array flashcard
 array pref_quiz_length_entries
 array pref_quiz_length_values
 attr coordinatorLayoutStyle
@@ -60,6 +59,7 @@ dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
 drawable background_image
+drawable home
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -104,6 +104,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id forever
+id home
 id icon
 id icon_group
 id incorrect_value
@@ -114,11 +115,13 @@ id line1
 id line3
 id list_view
 id media_actions
+id next
 id none
 id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id previous
 id quiz_answer_1
 id quiz_answer_2
 id quiz_answer_3
@@ -150,6 +153,7 @@ integer card_slide_time
 integer status_bar_notification_info_maxnum
 layout definition
 layout flashcard
+layout flashcard2
 layout main
 layout main_quiz
 layout makecard
@@ -171,7 +175,7 @@ layout notification_template_part_time
 layout quiz_answer
 layout quiz_question
 layout results_dialog
-layout search
+layout viewcard
 layout word
 mipmap ic_launcher
 mipmap ic_launcher_foreground
@@ -192,12 +196,15 @@ string menu_add
 string menu_delete
 string menu_settings
 string menu_title
-string ppref_quiz_mode_title
 string pref_quiz_length_key
 string pref_quiz_length_summary
 string pref_quiz_length_title
 string pref_quiz_mode
 string pref_quiz_mode_summary
+string pref_quiz_mode_title
+string pref_view_mode
+string pref_view_mode_summary
+string pref_view_mode_title
 string quiz_question
 string results_title
 string status_bar_notification_info_overflow

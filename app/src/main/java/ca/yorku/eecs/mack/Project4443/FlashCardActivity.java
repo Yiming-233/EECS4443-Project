@@ -1,16 +1,12 @@
 package ca.yorku.eecs.mack.Project4443;
 
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.app.Fragment;
 import android.content.Context;
-import android.content.DialogInterface;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Vibrator;
 import android.preference.PreferenceManager;
-import android.util.Log;
 import android.view.GestureDetector;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -19,18 +15,16 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.view.View.OnClickListener;
+import android.view.View.OnTouchListener;
 
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileReader;
 import java.io.FileWriter;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
 
-public class FlashCardActivity extends Activity implements View.OnTouchListener{
+public class FlashCardActivity extends Activity implements OnClickListener, OnTouchListener{
     private final static String MYDEBUG = "MYDEBUG"; // for Log.i messages
 
     // Options menu items (used for groupId and itemId)
@@ -44,34 +38,42 @@ public class FlashCardActivity extends Activity implements View.OnTouchListener{
     SharedPreferences sp;
     boolean showingBack; // true = showing back of card
     boolean toastBeforeExit;
-
+    boolean buttonorGesture;
+    ImageButton next, prev, home;
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.flashcard);
+        Bundle b = getIntent().getExtras();
+        if (savedInstanceState == null) // the activity is being created for the 1st time
+        {
+            // initialize SharedPreferences instance and load the settings
+            sp = PreferenceManager.getDefaultSharedPreferences(this);
+            cardIdx = b.getInt("index", 0);
+            // put the fragments UIs in the activity's content
+            getFragmentManager().beginTransaction().add(R.id.container, new WordFragment()).commit();
+        }
+        buttonorGesture = b.getBoolean(MainActivity.VIEW_MODE,false);//the user select to use button or gesture
         toastBeforeExit = true; // the user gets one reminder before exiting app
-
+        if(buttonorGesture){
+            setContentView(R.layout.flashcard2);
+            next = (ImageButton) findViewById(R.id.next);
+            prev = (ImageButton) findViewById(R.id.previous);
+            home = (ImageButton) findViewById(R.id.home);
+            next.setOnClickListener(this);
+            prev.setOnClickListener(this);
+            home.setOnClickListener(this);
+        }
+        else
+            setContentView(R.layout.flashcard);
         // UI responds to touch gestures
         cardView = (FrameLayout)findViewById(R.id.container);
         cardView.setOnTouchListener(this);
         gestureDetector = new GestureDetector(this.getBaseContext(), new MyGestureListener());
 
-
         // init vibrator (used for long-press gesture)
         vib = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);
-
-        if (savedInstanceState == null) // the activity is being created for the 1st time
-        {
-            // initialize SharedPreferences instance and load the settings
-            sp = PreferenceManager.getDefaultSharedPreferences(this);
-            Bundle b = getIntent().getExtras();
-            cardIdx = b.getInt("index", 0);
-            // put the fragments UIs in the activity's content
-            getFragmentManager().beginTransaction().add(R.id.container, new WordFragment()).commit();
-        }
     }
-
     // Setup an Options menu (used for Quiz, etc.).
     @Override
     public boolean onCreateOptionsMenu(Menu menu)
@@ -84,7 +86,7 @@ public class FlashCardActivity extends Activity implements View.OnTouchListener{
     @Override
     public boolean onOptionsItemSelected(MenuItem item)
     {
-        // launch the SettingsActivity to allow the user to change the app's settings
+        //remove current selected card
         removeCard();
         return false;
     }
@@ -95,24 +97,16 @@ public class FlashCardActivity extends Activity implements View.OnTouchListener{
         gestureDetector.onTouchEvent(me);
         return true;
     }
-
-    @Override
-    public void onBackPressed()
-    {
-        if (cardIdx > 0)
-        {
-            cardIdx--;
-            showingBack = false;
-            getFragmentManager().beginTransaction().setCustomAnimations(R.animator.view_appear_enter,
-                    R.animator.view_appear_exit).replace(R.id.container, new WordFragment()).commit();
-            return;
-        } else if (toastBeforeExit)
-        {
-            toastBeforeExit = false;
-            Toast.makeText(this, "Press Back once more to exit", Toast.LENGTH_LONG).show();
-            return;
+    //only functioning when user select to use button mode
+    public void onClick(View v){
+        if (v == next){
+            nextWord();//see below
         }
-        finish();
+        else if(v == prev){
+            onBackPressed();//see below
+        }
+        else
+            finish();//see below
     }
     private void flipCard()
     {
@@ -132,7 +126,71 @@ public class FlashCardActivity extends Activity implements View.OnTouchListener{
         }
         showingBack = !showingBack; // toggle showing back/front
     }
-
+    private void nextWord() {
+        if(cardIdx < MainActivity.words.size() -1)
+            cardIdx++; //go to next word
+        else
+            cardIdx = 0;//if current word is the last, return to begining
+        //reset boolean
+        showingBack = false;
+        toastBeforeExit = true;
+        //show card
+        getFragmentManager().beginTransaction().setCustomAnimations(R.animator.view_appear_enter,
+                        R.animator.view_appear_exit).replace(R.id.container, new WordFragment()).addToBackStack(null)
+                .commit();
+    }
+    @Override
+    public void onBackPressed()
+    {
+        if (cardIdx > 0)
+        {
+            cardIdx--;
+            showingBack = false;
+            getFragmentManager().beginTransaction().setCustomAnimations(R.animator.view_appear_enter,
+                    R.animator.view_appear_exit).replace(R.id.container, new WordFragment()).commit();
+            return;
+        } else if (toastBeforeExit)
+        {
+            toastBeforeExit = false;
+            Toast.makeText(this, "Press Back once more to exit", Toast.LENGTH_LONG).show();
+            return;
+        }
+        if(cardIdx == 0)
+            finish();
+    }
+    private void removeCard(){
+        //remove card from arraylist
+        MainActivity.words.remove(cardIdx);
+        MainActivity.defs.remove(cardIdx);
+        MainActivity.backup.remove(cardIdx);
+        cardIdx--;
+        //read file
+        File file = MainActivity.file;
+        if (file.exists()) {
+            if (file.delete()) {
+                System.out.println("file Deleted");
+                try {
+                    //rewrite file
+                    FileWriter writer = new FileWriter(file,true);
+                    for (int i = 0; i < MainActivity.backup.size(); i++){
+                        writer.append(MainActivity.backup.get(i));
+                        writer.append("\n");
+                        writer.flush();
+                    }
+                    writer.close();
+                    Toast.makeText(FlashCardActivity.this, "Flashcard is deleted", Toast.LENGTH_LONG).show();
+                } catch (Exception e) {
+                }
+            } else {
+                System.out.println("file not Deleted");
+            }
+        }
+        //return to home page when no more card left
+        if(MainActivity.words.isEmpty())
+            finish();
+        else //else move on to next card
+            nextWord();
+    }
     public static class WordFragment extends Fragment
     {
         View frontView;
@@ -151,7 +209,6 @@ public class FlashCardActivity extends Activity implements View.OnTouchListener{
             return frontView;
         }
     }
-
     public static class DefinitionFragment extends Fragment // implements View.OnTouchListener
     {
         View backView;
@@ -170,52 +227,11 @@ public class FlashCardActivity extends Activity implements View.OnTouchListener{
             return backView;
         }
     }
-
-    private void nextWord() {
-        if (!MainActivity.words.isEmpty())
-        if(cardIdx < MainActivity.words.size() -1)
-            cardIdx++;
-        else
-            cardIdx = 0;
-        showingBack = false;
-        getFragmentManager().beginTransaction().setCustomAnimations(R.animator.view_appear_enter,
-                        R.animator.view_appear_exit).replace(R.id.container, new WordFragment()).addToBackStack(null)
-                .commit();
-    }
-
-    private void removeCard(){
-        MainActivity.words.remove(cardIdx);
-        MainActivity.defs.remove(cardIdx);
-        MainActivity.backup.remove(cardIdx);
-        cardIdx--;
-        File file = MainActivity.file;
-        if (file.exists()) {
-            if (file.delete()) {
-                System.out.println("file Deleted");
-                try {
-                    FileWriter writer = new FileWriter(file,true);
-                    for (int i = 0; i < MainActivity.backup.size(); i++){
-                        writer.append(MainActivity.backup.get(i));
-                        writer.append("\n");
-                        writer.flush();
-                    }
-                    writer.close();
-                    Toast.makeText(FlashCardActivity.this, "Flashcard is deleted", Toast.LENGTH_LONG).show();
-                } catch (Exception e) {
-                }
-            } else {
-                System.out.println("file not Deleted");
-            }
-        }
-        if(MainActivity.words.isEmpty())
-            finish();
-        else
-            nextWord();
-    }
     private class MyGestureListener extends GestureDetector.SimpleOnGestureListener {
         @Override
         public boolean onSingleTapUp(MotionEvent me) {
-            nextWord();
+            if (!buttonorGesture)
+                nextWord();
             return true;
         }
         @Override
@@ -226,8 +242,10 @@ public class FlashCardActivity extends Activity implements View.OnTouchListener{
         @Override
         public void onLongPress(MotionEvent me)//long press to return to home page
         {
-            vib.vibrate(50);
-            finish();
+            if (!buttonorGesture){
+                vib.vibrate(50);
+                finish();
+            }
         }
     }
 }

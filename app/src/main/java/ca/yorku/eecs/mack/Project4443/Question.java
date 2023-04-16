@@ -1,6 +1,5 @@
 package ca.yorku.eecs.mack.Project4443;
 
-import java.util.ArrayList;
 import java.util.Random;
 
 /*
@@ -38,32 +37,26 @@ public class Question
 		} while (repeats());
 
 		// replace one of the entries with the idx of the correct answer
-		answerArrayCorrectIdx = r.nextInt(numberOfAnswers);
+		//answerArrayCorrectIdx = r.nextInt(numberOfAnswers);
+		//for test purpose
+		answerArrayCorrectIdx = 2;
 		answerArray[answerArrayCorrectIdx] = word;
 	}
 
-	// randomize the order of string.
+	// randomize the order of character.
 	private void fillRandom(String word)
 	{
-		StringBuilder sb = new StringBuilder(word);
-		String shuffledStr;
-		char randomChar;
-		int remain = 4 - word.length();
 
-		if(remain >0){//if the word length < 4, add random char to make it longer
-			for (int i = 0; i < remain; i++){
-				randomChar = (char)(r.nextInt(26) + 'a');
-				sb.append(randomChar);
-			}
-		}
+		char randomChar;
+		//make sure word is not too short
+		int randomNumber = r.nextInt(word.length()+3)+2;
 
 		for (int i = 0; i < answerArray.length; ++i)
 		{
-			for (int j = sb.length() - 1; j > 0; j--) {
-				int k = r.nextInt(j + 1);
-				char temp = sb.charAt(j);
-				sb.setCharAt(j, sb.charAt(k));
-				sb.setCharAt(k, temp);
+			StringBuilder sb = new StringBuilder();
+			for (int j = 0; j <randomNumber; j++) {
+				randomChar = (char)(r.nextInt(26) + 'a');
+				sb.append(randomChar);
 			}
 			answerArray[i]=sb.toString();
 		}

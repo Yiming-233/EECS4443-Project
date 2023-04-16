@@ -12,7 +12,7 @@ import android.widget.SearchView;
 import java.util.ArrayList;
 
 
-public class SearchableActivity extends Activity implements SearchView.OnQueryTextListener{
+public class ViewCardActivity extends Activity implements SearchView.OnQueryTextListener{
 
     private ListView listView;
     private SearchView searchView;
@@ -22,7 +22,7 @@ public class SearchableActivity extends Activity implements SearchView.OnQueryTe
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.search);
+        setContentView(R.layout.viewcard);
 
         listView = findViewById(R.id.list_view);
         searchView = findViewById(R.id.search_view);
@@ -34,9 +34,11 @@ public class SearchableActivity extends Activity implements SearchView.OnQueryTe
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // Handle item click event
-                String selectedItem = (String) parent.getItemAtPosition(position);
                 Intent i = new Intent(getApplicationContext(), FlashCardActivity.class);
+                Bundle b = getIntent().getExtras();
+                //retrieve selected item an view mode
                 i.putExtra("index",position);
+                i.putExtra(MainActivity.VIEW_MODE,b.getBoolean(MainActivity.VIEW_MODE,false));
                 startActivity(i);
                 //return value
                 finish();
@@ -51,7 +53,7 @@ public class SearchableActivity extends Activity implements SearchView.OnQueryTe
 
     @Override
     public boolean onQueryTextChange(String s) {
-        // Filter results as user types
+        //Auto-fill
         ArrayList<String> results = new ArrayList<>();
         ArrayList<String>  word = MainActivity.words;
 

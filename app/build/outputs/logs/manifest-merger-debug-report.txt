@@ -91,12 +91,12 @@ ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:35:9-38
 		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:37:13-45
 	android:name
 		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:36:13-66
-activity#ca.yorku.eecs.mack.Project4443.SearchableActivity
+activity#ca.yorku.eecs.mack.Project4443.ViewCardActivity
 ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:39:9-42:20
 	android:label
 		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:41:13-45
 	android:name
-		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:40:13-77
+		ADDED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:40:13-75
 uses-sdk
 INJECTED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml

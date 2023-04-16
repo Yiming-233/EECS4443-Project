@@ -14,6 +14,11 @@
         android:defaultValue="false"
         android:key="@string/pref_quiz_mode"
         android:summary="@string/pref_quiz_mode_summary"
-        android:title="@string/ppref_quiz_mode_title" />
+        android:title="@string/pref_quiz_mode_title" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/pref_view_mode"
+        android:summary="@string/pref_view_mode_summary"
+        android:title="@string/pref_view_mode_title" />
 
 </PreferenceScreen>

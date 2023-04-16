@@ -20,20 +20,16 @@ public class SettingsActivity extends Activity implements OnSharedPreferenceChan
 		getFragmentManager().beginTransaction().replace(android.R.id.content, new MyPreferenceFragment()).commit();
 	}
 
-	/*
-	 * We're not doing anything when a Setting is changed, but we're implementing the callback
-	 * anyway. The approach in this demo to deal with the changes to settings in the main
-	 * application activity after SettingsActivity terminates. See onActivityResult in
-	 * DemoQuotationActivity.
-	 */
-	public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key)
-	{
+	public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
 		// build keys (makes the code more readable)
 		final String MODE_KEY = getBaseContext().getString(R.string.pref_quiz_mode);
+		final String VIEW_KEY = getBaseContext().getString(R.string.pref_view_mode);
 
-		if (key.equals(MODE_KEY))
-		{
-			Log.i(MYDEBUG, "VIBRATE setting changed: New value=" + sharedPreferences.getBoolean(key, true));
+		if (key.equals(MODE_KEY)) {
+			Log.i(MYDEBUG, "Mode setting changed: New value=" + sharedPreferences.getBoolean(key, true));
+
+		} else if (key.equals(VIEW_KEY)) {
+			Log.i(MYDEBUG, "View setting changed: New value=" + sharedPreferences.getBoolean(key, true));
 
 		}
 	}

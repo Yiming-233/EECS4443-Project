@@ -79,8 +79,8 @@
 47        </activity>
 48        <activity
 48-->D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:39:9-42:20
-49            android:name="ca.yorku.eecs.mack.Project4443.SearchableActivity"
-49-->D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:40:13-77
+49            android:name="ca.yorku.eecs.mack.Project4443.ViewCardActivity"
+49-->D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:40:13-75
 50            android:label="@string/app_name" >
 50-->D:\((york))\4443\Project4443\app\src\main\AndroidManifest.xml:41:13-45
 51        </activity>

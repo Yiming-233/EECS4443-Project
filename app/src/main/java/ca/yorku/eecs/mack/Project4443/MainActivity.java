@@ -15,28 +15,26 @@ import android.widget.Toast;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
     public final static String QUIZ_LENGTH_KEY = "number_of_questions"; //Used in QuizActivity
-    public final static String QUIZ_MODE = "haptic and auditory";
+    public final static String QUIZ_MODE = "haptic or auditory";
+    public final static String VIEW_MODE = "button or gesture";
     private final static String MYDEBUG = "MYDEBUG"; // for Log.i messages
     private final static String WORD_KEY = "words";
     private final static String DEF_KEY = "defs";
     private final static String NUMBER_OF_QUESTIONS_KEY = "1";
     private final static int SETTINGS = 1;// Options menu items (used for groupId and itemId)
-
     static ArrayList<String> words,defs,backup;
     static File file;
-
     Button add,viewCard,quiz;
     SharedPreferences sp;
     boolean toastBeforeExit;
-    boolean hapticandauditorymode;
-
+    boolean hapticOrAuditoryMode;
+    boolean buttonorGesture;
     int numberOfQuestions;
 
     protected void onCreate(Bundle savedInstanceState)
@@ -87,15 +85,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
     {
         // build the keys (makes the code more readable)
         final String PREF_QUIZ_LENGTH_KEY = getBaseContext().getString(R.string.pref_quiz_length_key);
-
         numberOfQuestions = Integer.parseInt(sp.getString(PREF_QUIZ_LENGTH_KEY, "1"));
-        hapticandauditorymode = sp.getBoolean(QUIZ_MODE, false);
+        hapticOrAuditoryMode = sp.getBoolean(QUIZ_MODE, false);
+        buttonorGesture = sp.getBoolean(VIEW_MODE,false);
         readFile();//read file
     }
-
     private void readFile() {
+        //card are stored in the device
         file = new File(MainActivity.this.getFilesDir() + "/carddecks/cards.txt");
-
         try {
             words = new ArrayList<String>();
             defs = new ArrayList<String>();
@@ -116,22 +113,25 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
     @Override
     public void onClick(View view) {
-        if (view == add) {
+        if (view == add) {//go to add card act
             Intent i = new Intent(getApplicationContext(), AddCard.class);
             startActivity(i);
         }
-        else if(view == viewCard){
+        else if(view == viewCard){//go to view card act
             if (!words.isEmpty()){
-                Intent i = new Intent(getApplicationContext(), SearchableActivity.class);
+                Intent i = new Intent(getApplicationContext(), ViewCardActivity.class);
+                final Bundle b = new Bundle();
+                b.putBoolean(VIEW_MODE, buttonorGesture);
+                i.putExtras(b);
                 startActivity(i);
             }
             else
                 Toast.makeText(this, "Your card deck is currently empty!", Toast.LENGTH_LONG).show();
 
         }
-        else if(view == quiz){
+        else if(view == quiz){//go to quiz act
             File temp = new File(MainActivity.this.getFilesDir() + "/carddecks/question.txt");
-            if(temp.exists()){
+            if(temp.exists()){// if user has attempt the quiz once, start quiz
                 startQuiz();
             }
             else if(words.isEmpty()){
@@ -147,7 +147,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     public void startQuiz(){
         final Bundle b = new Bundle();
         b.putInt(QUIZ_LENGTH_KEY, numberOfQuestions);
-        b.putBoolean(QUIZ_MODE, hapticandauditorymode);
+        b.putBoolean(QUIZ_MODE, hapticOrAuditoryMode);
         Intent quizIntent = new Intent(getApplicationContext(), QuizActivity.class);
         quizIntent.putExtras(b);
         quizIntent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
@@ -167,18 +167,19 @@ public class MainActivity extends Activity implements View.OnClickListener {
         super.onRestoreInstanceState(savedInstanceState);
         words = savedInstanceState.getStringArrayList(WORD_KEY);
         defs = savedInstanceState.getStringArrayList(DEF_KEY);
-        hapticandauditorymode = savedInstanceState.getBoolean(QUIZ_MODE);
+        hapticOrAuditoryMode = savedInstanceState.getBoolean(QUIZ_MODE);
         numberOfQuestions = savedInstanceState.getInt(NUMBER_OF_QUESTIONS_KEY);
+        buttonorGesture = savedInstanceState.getBoolean(VIEW_MODE);
     }
-
     // save state variables in the event of a screen rotation
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState)
     {
         savedInstanceState.putStringArrayList(WORD_KEY, words);
         savedInstanceState.putStringArrayList(DEF_KEY, defs);
-        savedInstanceState.putBoolean(QUIZ_MODE, hapticandauditorymode);
+        savedInstanceState.putBoolean(QUIZ_MODE, hapticOrAuditoryMode);
         savedInstanceState.putInt(NUMBER_OF_QUESTIONS_KEY, numberOfQuestions);
+        savedInstanceState.putBoolean(VIEW_MODE, buttonorGesture);
         super.onSaveInstanceState(savedInstanceState);
     }
 }

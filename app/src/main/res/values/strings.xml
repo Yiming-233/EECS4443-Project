@@ -8,7 +8,7 @@
     <string name="menu_delete">Delete</string>
     <string name="menu_add">Add Card</string>
     <string name="quiz_question">Which word is this?</string>
-    <string name="results_title">Thank You</string>
+    <string name="results_title">Result</string>
     <string name="correct_title">Correct!</string>
     <string name="incorrect_title">Sorry!</string>
     <string name="continue_string">Continue</string>
@@ -39,8 +39,12 @@
         <item>"20"</item>
     </string-array>
 
-    <!-- QUIZ VIBRATION PREFERENCES -->
-    <string name="pref_quiz_mode">haptic and auditory</string>
-    <string name="pref_quiz_mode_summary">switch to haptic and auditory mode</string>
-    <string name="ppref_quiz_mode_title">haptic and auditory</string>
+    <!-- QUIZ VERSION PREFERENCES -->
+    <string name="pref_quiz_mode">haptic or auditory</string>
+    <string name="pref_quiz_mode_summary">switch to haptic or auditory mode</string>
+    <string name="pref_quiz_mode_title">haptic or auditory</string>
+    <!--CARD VIEW PREFERRENCES-->
+    <string name="pref_view_mode">button or gesture</string>
+    <string name="pref_view_mode_summary">switch to button or gesture mode</string>
+    <string name="pref_view_mode_title">button or gesture</string>
 </resources>
