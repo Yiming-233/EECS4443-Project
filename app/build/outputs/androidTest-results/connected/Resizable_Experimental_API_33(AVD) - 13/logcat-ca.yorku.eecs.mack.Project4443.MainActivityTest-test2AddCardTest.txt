@@ -1,0 +1,208 @@
+04-17 00:36:24.542 10397 10420 I TestRunner: started: test2AddCardTest(ca.yorku.eecs.mack.Project4443.MainActivityTest)
+04-17 00:36:24.544 10397 10397 I MonitoringInstr: Activities that are still in CREATED to STOPPED: 0
+04-17 00:36:24.546 10397 10420 W ActivityTestRule: getActivityIntent() returned null using default: Intent(Intent.ACTION_MAIN)
+04-17 00:36:24.552   917  1251 D SplashScreenView: Build android.window.SplashScreenView{a70afb8 V.E...... ......ID 0,0-0,0}
+04-17 00:36:24.552   917  1251 D SplashScreenView: Icon: view: null drawable: null size: 0
+04-17 00:36:24.552   917  1251 D SplashScreenView: Branding: view: android.view.View{7d51191 G.ED..... ......I. 0,0-0,0 #10204db android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+04-17 00:36:24.555   419   574 W TransactionTracing: Could not find layer handle 0x7092eed68370
+04-17 00:36:24.556   419   574 W TransactionTracing: Could not find layer handle 0x7092eed68b50
+04-17 00:36:24.568 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@68fc3fd in: PRE_ON_CREATE
+04-17 00:36:24.578   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f0000000 0x3f09a4000]
+04-17 00:36:24.580 10397 10397 I MYDEBUG : Number of flashcards = 5
+04-17 00:36:24.580 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@68fc3fd in: CREATED
+04-17 00:36:24.581 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@68fc3fd in: STARTED
+04-17 00:36:24.583 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@68fc3fd in: RESUMED
+04-17 00:36:24.587   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f1cec000 0x3f2690000]
+04-17 00:36:24.591   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f6c5a000 0x3f75fe000]
+04-17 00:36:24.595   917  1266 W Parcel  : Expecting binder but got null!
+04-17 00:36:24.605   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:24.605   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:24.605   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:24.605   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:24.605   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:24.605   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:24.613   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f09a4000 0x3f1348000]
+04-17 00:36:24.624   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f75fe000 0x3f7fa2000]
+04-17 00:36:24.627   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f4000000 0x3f49a4000]
+04-17 00:36:24.633 10397 10424 W Parcel  : Expecting binder but got null!
+04-17 00:36:24.639   685   718 W ziparchive: Unable to open '/data/app/~~5WkMgUHT59kjF6dyU1ZdyQ==/ca.yorku.eecs.mack.Project4443-1Ccr90nrDFhx_yJ-zYP2gw==/base.dm': No such file or directory
+04-17 00:36:24.641   685   718 I ActivityTaskManager: Displayed ca.yorku.eecs.mack.Project4443/.MainActivity: +91ms
+04-17 00:36:24.654   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:24.654   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:24.662  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+04-17 00:36:24.663  2773  2773 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+04-17 00:36:24.663  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 0, unlocked = true
+04-17 00:36:24.663  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=ca.yorku.eecs.mack.Project4443 fieldId=2131230720 fieldName=null extras=null}, false)
+04-17 00:36:24.664  2773  2811 E HwDetectorWithState: a: 3
+04-17 00:36:24.665  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+04-17 00:36:24.672   419   574 W TransactionTracing: Could not find layer handle 0x7092eed659d0
+04-17 00:36:24.737   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:24.755   419   574 W TransactionTracing: Could not find layer handle 0x7092eed680d0
+04-17 00:36:24.759   917  1266 D EGL_emulation: app_time_stats: avg=24736.24ms min=24736.24ms max=24736.24ms count=1
+04-17 00:36:24.895  1048  1358 D BtGatt.ScanManager: uid 10105 isForeground true scanMode 1
+04-17 00:36:24.896  1048  1358 D BtGatt.ScanManager: uid 10105 isForeground true scanMode -1
+04-17 00:36:24.896  1048  1358 D BtGatt.ScanManager: uid 10105 isForeground true scanMode -1
+04-17 00:36:24.912 10397 10397 I ViewInteraction: Performing 'single click' action on view (with id: ca.yorku.eecs.mack.Project4443:id/AddCardButton and with text: is "Add New Card" and Child at position 0 in parent Child at position 0 in parent with class name: is "android.widget.LinearLayout" and is displayed on the screen to the user)
+04-17 00:36:24.915 10397 10397 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+04-17 00:36:24.917   685  5269 D InputDispatcher: Touch mode switch rejected, caller (pid=0, uid=10159) doesn't own the focused window nor none of the previously interacted window
+04-17 00:36:24.919  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=539.5, y[0]=628.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1293410, downTime=1293410, deviceId=-1, source=0x1002, displayId=0, eventId=-1037377696 }
+04-17 00:36:24.929   685  5269 W InputManager-JNI: Input channel object 'be34358 Splash Screen ca.yorku.eecs.mack.Project4443 (client)' was disposed without first being removed with the input manager!
+04-17 00:36:24.938   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:24.940   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:24.940   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:24.941   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:24.941   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:24.956  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=539.5, y[0]=628.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1293452, downTime=1293410, deviceId=-1, source=0x1002, displayId=0, eventId=-387489977 }
+04-17 00:36:24.962 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@68fc3fd in: PAUSED
+04-17 00:36:24.962 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@73042a2
+04-17 00:36:24.962 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@73042a2
+04-17 00:36:24.971   419   574 W TransactionTracing: Could not find layer handle 0x7092eed668d0
+04-17 00:36:24.972   419   574 W TransactionTracing: Could not find layer handle 0x7092eed66ab0
+04-17 00:36:24.975 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.AddCard@d73e6ee in: PRE_ON_CREATE
+04-17 00:36:24.975 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@73042a2
+04-17 00:36:24.975 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@73042a2
+04-17 00:36:24.980   416   618 D AudioFlinger: mixer(0x73a98908e9a0) throttle end: throttle time(29)
+04-17 00:36:24.985 10397 10397 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+04-17 00:36:24.992 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.AddCard@d73e6ee in: CREATED
+04-17 00:36:24.992 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@73042a2
+04-17 00:36:24.992 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@73042a2
+04-17 00:36:24.993 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.AddCard@d73e6ee in: STARTED
+04-17 00:36:24.993 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@73042a2
+04-17 00:36:24.993 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@73042a2
+04-17 00:36:24.994 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.AddCard@d73e6ee in: RESUMED
+04-17 00:36:24.994 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@73042a2
+04-17 00:36:24.994 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@73042a2
+04-17 00:36:25.012 10397 10405 I ack.Project4443: Compiler allocated 4160KB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+04-17 00:36:25.018   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f1348000 0x3f1cec000]
+04-17 00:36:25.023   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f2690000 0x3f3034000]
+04-17 00:36:25.026   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f3034000 0x3f39d8000]
+04-17 00:36:25.035 10397 10424 W Parcel  : Expecting binder but got null!
+04-17 00:36:25.042   685   718 I ActivityTaskManager: Displayed ca.yorku.eecs.mack.Project4443/.AddCard: +85ms
+04-17 00:36:25.046 10397 10397 D CompatibilityChangeReporter: Compat change id reported: 163400105; UID 10159; state: ENABLED
+04-17 00:36:25.048 10397 10397 I AssistStructure: Flattened final assist data: 1768 bytes, containing 1 windows, 9 views
+04-17 00:36:25.057   399  5690 D goldfish-address-space: claimShared: Ask to claim region [0x3f3fa3000 0x3f3fa6000]
+04-17 00:36:25.060   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f3fa6000 0x3f3fa9000]
+04-17 00:36:25.065  2694  2694 W svc     : Pending fill request while another request in the same session was triggered. [CONTEXT service_id=177 ]
+04-17 00:36:25.066   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f39d8000 0x3f3acf000]
+04-17 00:36:25.071  1226  1226 V InlineSuggestionRenderService: handleDestroySuggestionViews called for 0:1265375812
+04-17 00:36:25.071  9587  9587 D BoundBrokerSvc: onBind: Intent { act=com.google.android.mdd.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+04-17 00:36:25.072  9587  9587 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.mdd.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+04-17 00:36:25.078   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f3acf000 0x3f3bc6000]
+04-17 00:36:25.080   685  1555 W Parcel  : Expecting binder but got null!
+04-17 00:36:25.080  2694  6401 I .gms.persistent: oneway function results for code 1 on binder at 0x7889f9a3faa0 will be dropped but finished with status UNKNOWN_TRANSACTION and reply parcel size 80
+04-17 00:36:25.081   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f3acf000 0x3f3bc6000]
+04-17 00:36:25.093   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f3bc6000 0x3f3cbd000]
+04-17 00:36:25.094   685  1555 W Parcel  : Expecting binder but got null!
+04-17 00:36:25.105   419   574 W TransactionTracing: Could not find layer handle 0x7092eed673b0
+04-17 00:36:25.105   419   574 W TransactionTracing: Could not find layer handle 0x7092eed67770
+04-17 00:36:25.105   419   574 W TransactionTracing: Could not find layer handle 0x7092eed636f0
+04-17 00:36:25.105   419   574 W TransactionTracing: Could not find layer handle 0x7092eed636f0
+04-17 00:36:25.105   419   574 W TransactionTracing: Could not find layer handle 0x7092eed67770
+04-17 00:36:25.121   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:25.178  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+04-17 00:36:25.179  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 0, unlocked = true
+04-17 00:36:25.179  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x20001(Normal) imeOptions=0x48000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=null label=null packageName=ca.yorku.eecs.mack.Project4443 fieldId=2131230792 fieldName=null extras=null}, false)
+04-17 00:36:25.180  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+04-17 00:36:25.270 10397 10397 I ViewInteraction: Performing 'replace text' action on view (with id: ca.yorku.eecs.mack.Project4443:id/wordText and Child at position 1 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:25.276  2886  2886 W AndroidSpellCheckerService: AndroidSpellCheckerService.initialize():81 initialize...
+04-17 00:36:25.277  2886  2886 I ShortcutsDataManager: ShortcutsDataManager.onContentChanged():70 onContentChanged()
+04-17 00:36:25.277  2886  2886 I ContactsDataManager: ContactsDataManager.onContentChanged():155 onContentChanged()
+04-17 00:36:25.278  2886  2886 W AndroidSpellCheckerService: AndroidSpellCheckerService.initialize():93 initialize...done
+04-17 00:36:25.291  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x20001(Normal) imeOptions=0x48000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x3000 hintText=null label=null packageName=ca.yorku.eecs.mack.Project4443 fieldId=2131230792 fieldName=null extras=null}, true)
+04-17 00:36:25.292 10397 10397 I ViewInteraction: Performing 'close keyboard' action on view (with id: ca.yorku.eecs.mack.Project4443:id/wordText and Child at position 1 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:25.292  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+04-17 00:36:25.292  2886  2886 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+04-17 00:36:25.294 10397 10397 W CloseKeyboardAction: Attempting to close soft keyboard, while it is not shown.
+04-17 00:36:25.295  2886  2886 I ShortcutsDataManager: AbstractContentDataManager.startImportContentTask():238 startImportContentTask()
+04-17 00:36:25.296 10397 10397 I ViewInteraction: Performing 'replace text' action on view (with id: ca.yorku.eecs.mack.Project4443:id/defText and Child at position 3 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:25.296  2886  3645 I ShortcutsDataManager: AbstractContentDataManager$ImportContentTask.doInBackground():252 doInBackground()
+04-17 00:36:25.296  2886  3645 I PersonalDictionaryDataHandler: PersonalDictionaryDataHandler.beginProcess():111 LanguageTags = [en-US]
+04-17 00:36:25.308 10397 10397 I ViewInteraction: Performing 'close keyboard' action on view (with id: ca.yorku.eecs.mack.Project4443:id/defText and Child at position 3 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:25.308 10397 10397 W CloseKeyboardAction: Attempting to close soft keyboard, while it is not shown.
+04-17 00:36:25.311 10397 10397 I ViewInteraction: Performing 'single click' action on view (with id: ca.yorku.eecs.mack.Project4443:id/addButton and with text: is "Add Card" and Child at position 4 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:25.312  2886  3645 I ShortcutsDataManager: AbstractContentDataManager.importRecords():342 importRecords() : Success : Count = 0
+04-17 00:36:25.313  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=539.5, y[0]=884.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1293809, downTime=1293809, deviceId=-1, source=0x1002, displayId=0, eventId=-929074479 }
+04-17 00:36:25.314  2886  3645 I ShortcutsDataManager: AbstractContentDataManager.importContentData():292 importContentData() : Ending import process
+04-17 00:36:25.314   685  3577 D InputDispatcher: Touch mode switch rejected, caller (pid=0, uid=10159) doesn't own the focused window nor none of the previously interacted window
+04-17 00:36:25.325  2886  3645 I PersonalLanguageModelUpdater: PersonalLanguageModelUpdater$UpdateOperation.performInternal():160 run() : Added 0 words and 0 shortcuts
+04-17 00:36:25.325  2886  3645 I DynamicLanguageModelOperation: DynamicLanguageModelOperation.perform():38 perform() : 4 : ccz : Completed
+04-17 00:36:25.326  2886  2886 I ShortcutsDataManager: AbstractContentDataManager$ImportContentTask.onPostExecute():263 onPostExecute() : Result = [2,0]
+04-17 00:36:25.326  2886  2886 I ShortcutsDataManager: ShortcutsDataManager.onImportFinished():80 onImportFinished() : Result = 2 : Count = 0
+04-17 00:36:25.353  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=539.5, y[0]=884.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1293850, downTime=1293809, deviceId=-1, source=0x1002, displayId=0, eventId=-575050514 }
+04-17 00:36:25.356 10397 10397 D CompatibilityChangeReporter: Compat change id reported: 147798919; UID 10159; state: ENABLED
+04-17 00:36:25.380   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f3fa9000 0x3f3ff6000]
+04-17 00:36:25.389   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f3bc6000 0x3f3c13000]
+04-17 00:36:25.391   399  5690 D goldfish-address-space: claimShared: Ask to claim region [0x3f3c13000 0x3f3c60000]
+04-17 00:36:25.394   917  1266 W Parcel  : Expecting binder but got null!
+04-17 00:36:25.421   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:25.421   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:25.421   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:25.421   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:25.421   416   618 D AF::Track: interceptBuffer: took 577us to intercept 0 tracks
+04-17 00:36:25.555   419   574 W TransactionTracing: Could not find layer handle 0x7092eed668d0
+04-17 00:36:25.556   419   574 W TransactionTracing: Could not find layer handle 0x7092eed65250
+04-17 00:36:25.556   419   574 W TransactionTracing: Could not find layer handle 0x7092eed66510
+04-17 00:36:25.556   419   574 W TransactionTracing: Could not find layer handle 0x7092eed62730
+04-17 00:36:25.557   419   574 W TransactionTracing: Could not find layer handle 0x7092eed667b0
+04-17 00:36:25.557   419   574 W TransactionTracing: Could not find layer handle 0x7092eed5e650
+04-17 00:36:25.557   419   574 W TransactionTracing: Could not find layer handle 0x7092eed62730
+04-17 00:36:25.557   419   574 W TransactionTracing: Could not find layer handle 0x7092eed668d0
+04-17 00:36:25.563 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@68fc3fd in: STOPPED
+04-17 00:36:25.563 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@73042a2
+04-17 00:36:25.563 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@73042a2
+04-17 00:36:25.587   419   574 W TransactionTracing: Could not find layer handle 0x7092eed66f30
+04-17 00:36:25.591 10397 10397 I ViewInteraction: Performing 'replace text' action on view (with id: ca.yorku.eecs.mack.Project4443:id/wordText and Child at position 1 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:25.608  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x20001(Normal) imeOptions=0x48000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x3000 hintText=null label=null packageName=ca.yorku.eecs.mack.Project4443 fieldId=2131230792 fieldName=null extras=null}, true)
+04-17 00:36:25.609  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+04-17 00:36:25.609  2886  2886 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+04-17 00:36:25.609 10397 10397 I ViewInteraction: Performing 'close keyboard' action on view (with id: ca.yorku.eecs.mack.Project4443:id/wordText and Child at position 1 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:25.610 10397 10397 W CloseKeyboardAction: Attempting to close soft keyboard, while it is not shown.
+04-17 00:36:25.612 10397 10397 I ViewInteraction: Performing 'replace text' action on view (with id: ca.yorku.eecs.mack.Project4443:id/defText and Child at position 3 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:25.623 10397 10397 I ViewInteraction: Performing 'close keyboard' action on view (with id: ca.yorku.eecs.mack.Project4443:id/defText and Child at position 3 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:25.623 10397 10397 W CloseKeyboardAction: Attempting to close soft keyboard, while it is not shown.
+04-17 00:36:25.627 10397 10397 I ViewInteraction: Performing 'single click' action on view (with id: ca.yorku.eecs.mack.Project4443:id/addButton and with text: is "Add Card" and Child at position 4 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:25.629  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=539.5, y[0]=884.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1294125, downTime=1294125, deviceId=-1, source=0x1002, displayId=0, eventId=-396922135 }
+04-17 00:36:25.669  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=539.5, y[0]=884.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1294165, downTime=1294125, deviceId=-1, source=0x1002, displayId=0, eventId=-751660710 }
+04-17 00:36:25.912 10397 10397 I ViewInteraction: Performing 'replace text' action on view (with id: ca.yorku.eecs.mack.Project4443:id/wordText and Child at position 1 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:25.923  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x20001(Normal) imeOptions=0x48000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x3000 hintText=null label=null packageName=ca.yorku.eecs.mack.Project4443 fieldId=2131230792 fieldName=null extras=null}, true)
+04-17 00:36:25.923 10397 10397 I ViewInteraction: Performing 'close keyboard' action on view (with id: ca.yorku.eecs.mack.Project4443:id/wordText and Child at position 1 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:25.923  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+04-17 00:36:25.924  2886  2886 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+04-17 00:36:25.924 10397 10397 W CloseKeyboardAction: Attempting to close soft keyboard, while it is not shown.
+04-17 00:36:25.926 10397 10397 I ViewInteraction: Performing 'replace text' action on view (with id: ca.yorku.eecs.mack.Project4443:id/defText and Child at position 3 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:25.943 10397 10397 I ViewInteraction: Performing 'close keyboard' action on view (with id: ca.yorku.eecs.mack.Project4443:id/defText and Child at position 3 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:25.944 10397 10397 W CloseKeyboardAction: Attempting to close soft keyboard, while it is not shown.
+04-17 00:36:25.946 10397 10397 I ViewInteraction: Performing 'single click' action on view (with id: ca.yorku.eecs.mack.Project4443:id/addButton and with text: is "Add Card" and Child at position 4 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:25.948  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=539.5, y[0]=884.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1294444, downTime=1294444, deviceId=-1, source=0x1002, displayId=0, eventId=-872877513 }
+04-17 00:36:25.992  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=539.5, y[0]=884.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1294487, downTime=1294444, deviceId=-1, source=0x1002, displayId=0, eventId=-1064931909 }
+04-17 00:36:26.224 10397 10397 I ViewInteraction: Performing 'replace text' action on view (with id: ca.yorku.eecs.mack.Project4443:id/wordText and Child at position 1 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:26.240  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x20001(Normal) imeOptions=0x48000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x3000 hintText=null label=null packageName=ca.yorku.eecs.mack.Project4443 fieldId=2131230792 fieldName=null extras=null}, true)
+04-17 00:36:26.240  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+04-17 00:36:26.240  2886  2886 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+04-17 00:36:26.240 10397 10424 D EGL_emulation: app_time_stats: avg=79.49ms min=2.03ms max=238.51ms count=15
+04-17 00:36:26.241 10397 10397 I ViewInteraction: Performing 'close keyboard' action on view (with id: ca.yorku.eecs.mack.Project4443:id/wordText and Child at position 1 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:26.242 10397 10397 W CloseKeyboardAction: Attempting to close soft keyboard, while it is not shown.
+04-17 00:36:26.243 10397 10397 I ViewInteraction: Performing 'replace text' action on view (with id: ca.yorku.eecs.mack.Project4443:id/defText and Child at position 3 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:26.261 10397 10397 I ViewInteraction: Performing 'close keyboard' action on view (with id: ca.yorku.eecs.mack.Project4443:id/defText and Child at position 3 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:26.261 10397 10397 W CloseKeyboardAction: Attempting to close soft keyboard, while it is not shown.
+04-17 00:36:26.263 10397 10397 I ViewInteraction: Performing 'single click' action on view (with id: ca.yorku.eecs.mack.Project4443:id/addButton and with text: is "Add Card" and Child at position 4 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:26.264  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=539.5, y[0]=884.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1294761, downTime=1294761, deviceId=-1, source=0x1002, displayId=0, eventId=-523138590 }
+04-17 00:36:26.304  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=539.5, y[0]=884.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1294801, downTime=1294761, deviceId=-1, source=0x1002, displayId=0, eventId=-349454058 }
+04-17 00:36:26.542 10397 10397 I ViewInteraction: Performing 'replace text' action on view (with id: ca.yorku.eecs.mack.Project4443:id/wordText and Child at position 1 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:26.556  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x20001(Normal) imeOptions=0x48000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x3000 hintText=null label=null packageName=ca.yorku.eecs.mack.Project4443 fieldId=2131230792 fieldName=null extras=null}, true)
+04-17 00:36:26.557  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+04-17 00:36:26.557  2886  2886 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+04-17 00:36:26.557 10397 10397 I ViewInteraction: Performing 'close keyboard' action on view (with id: ca.yorku.eecs.mack.Project4443:id/wordText and Child at position 1 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:26.558 10397 10397 W CloseKeyboardAction: Attempting to close soft keyboard, while it is not shown.
+04-17 00:36:26.560 10397 10397 I ViewInteraction: Performing 'replace text' action on view (with id: ca.yorku.eecs.mack.Project4443:id/defText and Child at position 3 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:26.575 10397 10397 I ViewInteraction: Performing 'close keyboard' action on view (with id: ca.yorku.eecs.mack.Project4443:id/defText and Child at position 3 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:26.576 10397 10397 W CloseKeyboardAction: Attempting to close soft keyboard, while it is not shown.
+04-17 00:36:26.578 10397 10397 I ViewInteraction: Performing 'single click' action on view (with id: ca.yorku.eecs.mack.Project4443:id/addButton and with text: is "Add Card" and Child at position 4 in parent (with id: ca.yorku.eecs.mack.Project4443:id/results_layout and Child at position 0 in parent with id: android:id/content) and is displayed on the screen to the user)
+04-17 00:36:26.580  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=539.5, y[0]=884.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1295076, downTime=1295076, deviceId=-1, source=0x1002, displayId=0, eventId=-132367212 }
+04-17 00:36:26.614 10397 10405 I ack.Project4443: Compiler allocated 4533KB to compile void android.view.ViewRootImpl.performTraversals()
+04-17 00:36:26.622  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=539.5, y[0]=884.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1295118, downTime=1295076, deviceId=-1, source=0x1002, displayId=0, eventId=-560445508 }
+04-17 00:36:26.860 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@68fc3fd in: DESTROYED
+04-17 00:36:26.860 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@73042a2
+04-17 00:36:26.860 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@73042a2
+04-17 00:36:26.861   685   710 W InputManager-JNI: Input channel object '5ae8522 ca.yorku.eecs.mack.Project4443/ca.yorku.eecs.mack.Project4443.MainActivity (client)' was disposed without first being removed with the input manager!
+04-17 00:36:26.864 10397 10420 I TestRunner: finished: test2AddCardTest(ca.yorku.eecs.mack.Project4443.MainActivityTest)

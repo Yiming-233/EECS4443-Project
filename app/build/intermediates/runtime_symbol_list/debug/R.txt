@@ -6,6 +6,7 @@ int animator view_slide_left_enter 0x7f010004
 int animator view_slide_left_exit 0x7f010005
 int animator view_slide_right_enter 0x7f010006
 int animator view_slide_right_exit 0x7f010007
+int array flashcard 0x7f020000
 int array pref_quiz_length_entries 0x7f020001
 int array pref_quiz_length_values 0x7f020002
 int attr coordinatorLayoutStyle 0x7f030000
@@ -174,8 +175,9 @@ int layout notification_template_part_time 0x7f0a0014
 int layout quiz_answer 0x7f0a0015
 int layout quiz_question 0x7f0a0016
 int layout results_dialog 0x7f0a0017
-int layout viewcard 0x7f0a001a
-int layout word 0x7f0a0019
+int layout search 0x7f0a0018
+int layout viewcard 0x7f0a0019
+int layout word 0x7f0a001a
 int mipmap ic_launcher 0x7f0b0000
 int mipmap ic_launcher_foreground 0x7f0b0001
 int mipmap ic_launcher_round 0x7f0b0002

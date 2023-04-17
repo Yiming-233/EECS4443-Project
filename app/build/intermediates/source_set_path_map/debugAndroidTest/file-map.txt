@@ -1,0 +1,7 @@
+ca.yorku.eecs.mack.Project4443.test.app-androidTest-0 D:\((york))\4443\Project4443\app\build\generated\res\resValues\androidTest\debug
+ca.yorku.eecs.mack.Project4443.test.app-androidTest-1 D:\((york))\4443\Project4443\app\build\generated\res\rs\androidTest\debug
+ca.yorku.eecs.mack.Project4443.test.app-mergeDebugAndroidTestResources-2 D:\((york))\4443\Project4443\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+ca.yorku.eecs.mack.Project4443.test.app-mergeDebugAndroidTestResources-3 D:\((york))\4443\Project4443\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+ca.yorku.eecs.mack.Project4443.test.app-merged_res-4 D:\((york))\4443\Project4443\app\build\intermediates\merged_res\debugAndroidTest
+ca.yorku.eecs.mack.Project4443.test.app-androidTest-5 D:\((york))\4443\Project4443\app\src\androidTest\res
+ca.yorku.eecs.mack.Project4443.test.app-androidTestDebug-6 D:\((york))\4443\Project4443\app\src\androidTestDebug\res

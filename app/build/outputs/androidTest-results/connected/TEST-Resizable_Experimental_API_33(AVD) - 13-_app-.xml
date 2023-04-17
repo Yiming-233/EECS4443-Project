@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="ca.yorku.eecs.mack.Project4443.MainActivityTest" tests="8" failures="0" errors="0" skipped="0" time="21.401" timestamp="2023-04-17T00:36:44" hostname="localhost">
+  <properties>
+    <property name="device" value="Resizable_Experimental_API_33(AVD) - 13" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="test1ViewEmptyCardTest" classname="ca.yorku.eecs.mack.Project4443.MainActivityTest" time="0.841" />
+  <testcase name="test2AddCardTest" classname="ca.yorku.eecs.mack.Project4443.MainActivityTest" time="2.306" />
+  <testcase name="test3ViewNoneEmptyCardTest" classname="ca.yorku.eecs.mack.Project4443.MainActivityTest" time="3.397" />
+  <testcase name="test4DeleteCardTest" classname="ca.yorku.eecs.mack.Project4443.MainActivityTest" time="1.672" />
+  <testcase name="test5Return1Test" classname="ca.yorku.eecs.mack.Project4443.MainActivityTest" time="2.281" />
+  <testcase name="test6Return2Test" classname="ca.yorku.eecs.mack.Project4443.MainActivityTest" time="1.775" />
+  <testcase name="test7QuizAllWrongTest" classname="ca.yorku.eecs.mack.Project4443.MainActivityTest" time="2.887" />
+  <testcase name="test8QuizAllCorrectTest" classname="ca.yorku.eecs.mack.Project4443.MainActivityTest" time="2.281" />
+</testsuite>

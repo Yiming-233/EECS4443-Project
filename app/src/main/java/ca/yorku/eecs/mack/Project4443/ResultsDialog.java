@@ -45,7 +45,7 @@ public class ResultsDialog extends DialogFragment
 	// Use this instance of the interface to deliver action events
 	OnResultsDialogClickListener myListener;
 
-	public static ResultsDialog newInstance(int numberCorrect, int numberIncorrect, int numberOfHints, String timeString)
+	public static ResultsDialog newInstance(int numberCorrect, int numberIncorrect, String timeString)
 	{
 		// instantiate the results dialog using the no-arg constructor, as required
 		ResultsDialog rd = new ResultsDialog();

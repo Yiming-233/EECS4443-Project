@@ -7,6 +7,7 @@ animator view_slide_left_enter
 animator view_slide_left_exit
 animator view_slide_right_enter
 animator view_slide_right_exit
+array flashcard
 array pref_quiz_length_entries
 array pref_quiz_length_values
 attr coordinatorLayoutStyle
@@ -175,6 +176,7 @@ layout notification_template_part_time
 layout quiz_answer
 layout quiz_question
 layout results_dialog
+layout search
 layout viewcard
 layout word
 mipmap ic_launcher

@@ -46,13 +46,12 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 	
 	// the following are public because they are also used in ResultsDialog
 	public final static String NUMBER_CORRECT_KEY = "number_correct"; 
-	public final static String NUMBER_INCORRECT_KEY = "number_incorrect"; 																			
-	public final static String NUMBER_OF_HINTS_KEY = "number_of_hints"; 																			
+	public final static String NUMBER_INCORRECT_KEY = "number_incorrect";
 	public final static String COMPLIATION_TIME_KEY = "compilation_time";
 	private final static int NUMBER_OF_ANSWERS = 4; // ... for each question in the quiz
 
 	long startTime, elapsedTime;
-	int numberCorrect, numberIncorrect, numberOfHints;
+	static int numberCorrect, numberIncorrect;
 	boolean firstAnswerFlag, attempted;
 	String timeString;
 
@@ -146,7 +145,6 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 			elapsedTime = 0;
 			numberCorrect = 0;
 			numberIncorrect = 0;
-			numberOfHints = 0;
 			firstAnswerFlag = false;
 			questionIdx = 0;
 
@@ -310,7 +308,7 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 	private void showResultsDialog()
 	{
 		// Create an instance of the dialog fragment (passing in the data we want to show)
-		DialogFragment df = ResultsDialog.newInstance(numberCorrect, numberIncorrect, numberOfHints, timeString);
+		DialogFragment df = ResultsDialog.newInstance(numberCorrect, numberIncorrect, timeString);
 
 		// show the dialog
 		df.show(getFragmentManager(), "ResultsDialogFragment");
@@ -418,7 +416,6 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 		startTime = savedInstanceState.getLong(START_TIME_KEY);
 		numberCorrect = savedInstanceState.getInt(NUMBER_CORRECT_KEY);
 		numberIncorrect = savedInstanceState.getInt(NUMBER_INCORRECT_KEY);
-		numberOfHints = savedInstanceState.getInt(NUMBER_OF_HINTS_KEY);
 		firstAnswerFlag = savedInstanceState.getBoolean(FIRST_ANSWER_FLAG_KEY);
 		numberOfQuestions = savedInstanceState.getInt(MainActivity.QUIZ_LENGTH_KEY);
 		hapticandauditorymode = savedInstanceState.getBoolean(MainActivity.QUIZ_MODE, false);
@@ -438,7 +435,6 @@ public class QuizActivity extends Activity implements View.OnTouchListener, Resu
 		savedInstanceState.putLong(START_TIME_KEY, startTime);
 		savedInstanceState.putInt(NUMBER_CORRECT_KEY, numberCorrect);
 		savedInstanceState.putInt(NUMBER_INCORRECT_KEY, numberIncorrect);
-		savedInstanceState.putInt(NUMBER_OF_HINTS_KEY, numberOfHints);
 		savedInstanceState.putBoolean(FIRST_ANSWER_FLAG_KEY, firstAnswerFlag);
 		savedInstanceState.putInt(MainActivity.QUIZ_LENGTH_KEY, numberOfQuestions);
 		savedInstanceState.putBoolean(MainActivity.QUIZ_MODE, hapticandauditorymode);

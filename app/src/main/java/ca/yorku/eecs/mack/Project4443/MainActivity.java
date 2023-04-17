@@ -85,7 +85,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     {
         // build the keys (makes the code more readable)
         final String PREF_QUIZ_LENGTH_KEY = getBaseContext().getString(R.string.pref_quiz_length_key);
-        numberOfQuestions = Integer.parseInt(sp.getString(PREF_QUIZ_LENGTH_KEY, "1"));
+        numberOfQuestions = Integer.parseInt(sp.getString(PREF_QUIZ_LENGTH_KEY, "2"));
         hapticOrAuditoryMode = sp.getBoolean(QUIZ_MODE, false);
         buttonorGesture = sp.getBoolean(VIEW_MODE,false);
         readFile();//read file

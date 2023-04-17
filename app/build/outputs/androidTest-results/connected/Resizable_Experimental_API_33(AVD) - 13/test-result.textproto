@@ -1,0 +1,432 @@
+# 2023-04-17T00:36:45.003Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 8
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "MainActivityTest"
+    test_package: "ca.yorku.eecs.mack.Project4443"
+    test_method: "test1ViewEmptyCardTest"
+    start_time {
+      seconds: 1681691783
+      nanos: 540000000
+    }
+    end_time {
+      seconds: 1681691784
+      nanos: 414000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\logcat-ca.yorku.eecs.mack.Project4443.MainActivityTest-test1ViewEmptyCardTest.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "MainActivityTest"
+    test_package: "ca.yorku.eecs.mack.Project4443"
+    test_method: "test2AddCardTest"
+    start_time {
+      seconds: 1681691784
+      nanos: 907000000
+    }
+    end_time {
+      seconds: 1681691787
+      nanos: 214000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\logcat-ca.yorku.eecs.mack.Project4443.MainActivityTest-test2AddCardTest.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "MainActivityTest"
+    test_package: "ca.yorku.eecs.mack.Project4443"
+    test_method: "test3ViewNoneEmptyCardTest"
+    start_time {
+      seconds: 1681691787
+      nanos: 697000000
+    }
+    end_time {
+      seconds: 1681691791
+      nanos: 93000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\logcat-ca.yorku.eecs.mack.Project4443.MainActivityTest-test3ViewNoneEmptyCardTest.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "MainActivityTest"
+    test_package: "ca.yorku.eecs.mack.Project4443"
+    test_method: "test4DeleteCardTest"
+    start_time {
+      seconds: 1681691791
+      nanos: 575000000
+    }
+    end_time {
+      seconds: 1681691793
+      nanos: 248000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\logcat-ca.yorku.eecs.mack.Project4443.MainActivityTest-test4DeleteCardTest.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "MainActivityTest"
+    test_package: "ca.yorku.eecs.mack.Project4443"
+    test_method: "test5Return1Test"
+    start_time {
+      seconds: 1681691793
+      nanos: 730000000
+    }
+    end_time {
+      seconds: 1681691796
+      nanos: 11000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\logcat-ca.yorku.eecs.mack.Project4443.MainActivityTest-test5Return1Test.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "MainActivityTest"
+    test_package: "ca.yorku.eecs.mack.Project4443"
+    test_method: "test6Return2Test"
+    start_time {
+      seconds: 1681691796
+      nanos: 492000000
+    }
+    end_time {
+      seconds: 1681691798
+      nanos: 268000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\logcat-ca.yorku.eecs.mack.Project4443.MainActivityTest-test6Return2Test.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "MainActivityTest"
+    test_package: "ca.yorku.eecs.mack.Project4443"
+    test_method: "test7QuizAllWrongTest"
+    start_time {
+      seconds: 1681691798
+      nanos: 725000000
+    }
+    end_time {
+      seconds: 1681691801
+      nanos: 613000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\logcat-ca.yorku.eecs.mack.Project4443.MainActivityTest-test7QuizAllWrongTest.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "MainActivityTest"
+    test_package: "ca.yorku.eecs.mack.Project4443"
+    test_method: "test8QuizAllCorrectTest"
+    start_time {
+      seconds: 1681691802
+      nanos: 96000000
+    }
+    end_time {
+      seconds: 1681691804
+      nanos: 377000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\logcat-ca.yorku.eecs.mack.Project4443.MainActivityTest-test8QuizAllCorrectTest.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "D:\\((york))\\4443\\Project4443\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_33(AVD) - 13\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

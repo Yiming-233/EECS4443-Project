@@ -1,0 +1,258 @@
+04-17 00:36:27.352 10397 10420 I TestRunner: started: test3ViewNoneEmptyCardTest(ca.yorku.eecs.mack.Project4443.MainActivityTest)
+04-17 00:36:27.353 10397 10397 I MonitoringInstr: Activities that are still in CREATED to STOPPED: 0
+04-17 00:36:27.355 10397 10420 W ActivityTestRule: getActivityIntent() returned null using default: Intent(Intent.ACTION_MAIN)
+04-17 00:36:27.362   917  1251 D SplashScreenView: Build android.window.SplashScreenView{d0275e2 V.E...... ......ID 0,0-0,0}
+04-17 00:36:27.362   917  1251 D SplashScreenView: Icon: view: null drawable: null size: 0
+04-17 00:36:27.362   917  1251 D SplashScreenView: Branding: view: android.view.View{8c33d73 G.ED..... ......I. 0,0-0,0 #10204db android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+04-17 00:36:27.380   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f1348000 0x3f1cec000]
+04-17 00:36:27.382 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@9335f36 in: PRE_ON_CREATE
+04-17 00:36:27.382   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3034000 0x3f39d8000]
+04-17 00:36:27.384   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f5348000 0x3f5cec000]
+04-17 00:36:27.386   917  1266 W Parcel  : Expecting binder but got null!
+04-17 00:36:27.401 10397 10397 I MYDEBUG : Number of flashcards = 5
+04-17 00:36:27.401 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@9335f36 in: CREATED
+04-17 00:36:27.402 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@9335f36 in: STARTED
+04-17 00:36:27.403 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@9335f36 in: RESUMED
+04-17 00:36:27.404   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:27.432   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f2318000 0x3f2cbc000]
+04-17 00:36:27.439   419   574 W TransactionTracing: Could not find layer handle 0x7092eed60f90
+04-17 00:36:27.439   419   574 W TransactionTracing: Could not find layer handle 0x7092eed65f70
+04-17 00:36:27.443   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f8000000 0x3f89a4000]
+04-17 00:36:27.445   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f89a4000 0x3f9348000]
+04-17 00:36:27.450 10397 10424 W Parcel  : Expecting binder but got null!
+04-17 00:36:27.453   685   718 W ziparchive: Unable to open '/data/app/~~5WkMgUHT59kjF6dyU1ZdyQ==/ca.yorku.eecs.mack.Project4443-1Ccr90nrDFhx_yJ-zYP2gw==/base.dm': No such file or directory
+04-17 00:36:27.453   685   718 I ActivityTaskManager: Displayed ca.yorku.eecs.mack.Project4443/.MainActivity: +95ms
+04-17 00:36:27.469  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+04-17 00:36:27.471  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 0, unlocked = true
+04-17 00:36:27.471  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=ca.yorku.eecs.mack.Project4443 fieldId=2131230720 fieldName=null extras=null}, false)
+04-17 00:36:27.472  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+04-17 00:36:27.475  2773  2773 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+04-17 00:36:27.477  2773  2813 E HwDetectorWithState: a: 3
+04-17 00:36:27.488   419   574 W TransactionTracing: Could not find layer handle 0x7092eed605d0
+04-17 00:36:27.488   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:27.488   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:27.488   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:27.555   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:27.555   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:27.556   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:27.556   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:27.557   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:27.557   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:27.557   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:27.558   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:27.558   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:27.559   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:27.655   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:27.655   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:27.671   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:27.672   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:27.679  1048  1358 D BtGatt.ScanManager: uid 10105 isForeground true scanMode 1
+04-17 00:36:27.680  1048  1358 D BtGatt.ScanManager: uid 10105 isForeground true scanMode -1
+04-17 00:36:27.680  1048  1358 D BtGatt.ScanManager: uid 10105 isForeground true scanMode -1
+04-17 00:36:27.688   419   574 W TransactionTracing: Could not find layer handle 0x7092eed68670
+04-17 00:36:27.688   419   574 W TransactionTracing: Could not find layer handle 0x7092eed62f70
+04-17 00:36:27.688   419   574 W TransactionTracing: Could not find layer handle 0x7092eed62f70
+04-17 00:36:27.689   419   574 W TransactionTracing: Could not find layer handle 0x7092eed68670
+04-17 00:36:27.694 10397 10397 I ViewInteraction: Performing 'single click' action on view (with id: ca.yorku.eecs.mack.Project4443:id/ViewCardButton and with text: is "View Card Deck" and Child at position 1 in parent Child at position 0 in parent with class name: is "android.widget.LinearLayout" and is displayed on the screen to the user)
+04-17 00:36:27.697   685  2599 D InputDispatcher: Touch mode switch rejected, caller (pid=0, uid=10159) doesn't own the focused window nor none of the previously interacted window
+04-17 00:36:27.699 10397 10397 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+04-17 00:36:27.701  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=539.5, y[0]=1232.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1296193, downTime=1296192, deviceId=-1, source=0x1002, displayId=0, eventId=-780910761 }
+04-17 00:36:27.729   685  2599 W InputManager-JNI: Input channel object '6ad327f Splash Screen ca.yorku.eecs.mack.Project4443 (client)' was disposed without first being removed with the input manager!
+04-17 00:36:27.736  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=539.5, y[0]=1232.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1296232, downTime=1296192, deviceId=-1, source=0x1002, displayId=0, eventId=-466070058 }
+04-17 00:36:27.739   419   574 W TransactionTracing: Could not find layer handle 0x7092eed5e350
+04-17 00:36:27.739   419   574 W TransactionTracing: Could not find layer handle 0x7092eed67d70
+04-17 00:36:27.739   419   574 W TransactionTracing: Could not find layer handle 0x7092eed63ed0
+04-17 00:36:27.743 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@9335f36 in: PAUSED
+04-17 00:36:27.743 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:27.743 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:27.749 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.ViewCardActivity@5aa5672 in: PRE_ON_CREATE
+04-17 00:36:27.749 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:27.749 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:27.761 10397 10397 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+04-17 00:36:27.767 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.ViewCardActivity@5aa5672 in: CREATED
+04-17 00:36:27.767 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:27.767 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:27.768 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.ViewCardActivity@5aa5672 in: STARTED
+04-17 00:36:27.768 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:27.768 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:27.769 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.ViewCardActivity@5aa5672 in: RESUMED
+04-17 00:36:27.769 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:27.769 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:27.795   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f0000000 0x3f09a4000]
+04-17 00:36:27.799   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f09a4000 0x3f1348000]
+04-17 00:36:27.801   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f6c5a000 0x3f75fe000]
+04-17 00:36:27.804   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:27.817 10397 10424 W Parcel  : Expecting binder but got null!
+04-17 00:36:27.828   685   718 I ActivityTaskManager: Displayed ca.yorku.eecs.mack.Project4443/.ViewCardActivity: +91ms
+04-17 00:36:27.838   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3ff6000 0x3f3ff9000]
+04-17 00:36:27.840   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f3ff9000 0x3f3ffc000]
+04-17 00:36:27.847   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f3c60000 0x3f3d57000]
+04-17 00:36:27.849   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f3d57000 0x3f3e4e000]
+04-17 00:36:27.861   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f3e4e000 0x3f3f45000]
+04-17 00:36:27.862   685  1555 W Parcel  : Expecting binder but got null!
+04-17 00:36:27.865   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f39d8000 0x3f3acf000]
+04-17 00:36:27.866   685  1555 W Parcel  : Expecting binder but got null!
+04-17 00:36:27.904   419   574 W TransactionTracing: Could not find layer handle 0x7092eed66cf0
+04-17 00:36:27.905   419   574 W TransactionTracing: Could not find layer handle 0x7092eed66090
+04-17 00:36:27.905   419   574 W TransactionTracing: Could not find layer handle 0x7092eed66810
+04-17 00:36:27.905   419   574 W TransactionTracing: Could not find layer handle 0x7092eed66810
+04-17 00:36:27.905   419   574 W TransactionTracing: Could not find layer handle 0x7092eed66090
+04-17 00:36:27.905   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:27.905   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:27.941  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+04-17 00:36:27.941  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 0, unlocked = true
+04-17 00:36:27.942  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=ca.yorku.eecs.mack.Project4443 fieldId=2131230782 fieldName=null extras=null}, false)
+04-17 00:36:27.943  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+04-17 00:36:27.954   419   574 W TransactionTracing: Could not find layer handle 0x7092eed65f10
+04-17 00:36:28.048 10397 10397 I ViewInteraction: Performing 'load adapter data' action on view (with id: ca.yorku.eecs.mack.Project4443:id/list_view and Child at position 1 in parent with class name: is "android.widget.RelativeLayout")
+04-17 00:36:28.057 10397 10397 I ViewInteraction: Performing 'single click' action on view  displaying data matching: ANYTHING within adapter view matching: (with id: ca.yorku.eecs.mack.Project4443:id/list_view and Child at position 1 in parent with class name: is "android.widget.RelativeLayout")
+04-17 00:36:28.059  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=539.5, y[0]=377.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1296555, downTime=1296555, deviceId=-1, source=0x1002, displayId=0, eventId=-58692406 }
+04-17 00:36:28.060   685  2599 D InputDispatcher: Touch mode switch rejected, caller (pid=0, uid=10159) doesn't own the focused window nor none of the previously interacted window
+04-17 00:36:28.100  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=539.5, y[0]=377.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1296597, downTime=1296555, deviceId=-1, source=0x1002, displayId=0, eventId=-713649123 }
+04-17 00:36:28.121   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:28.176 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.ViewCardActivity@5aa5672 in: PAUSED
+04-17 00:36:28.176 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:28.176 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:28.184 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.FlashCardActivity@3df3107 in: PRE_ON_CREATE
+04-17 00:36:28.184 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:28.184 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:28.201 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.FlashCardActivity@3df3107 in: CREATED
+04-17 00:36:28.202 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:28.202 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:28.203 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.FlashCardActivity@3df3107 in: STARTED
+04-17 00:36:28.203 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:28.203 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:28.211 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.FlashCardActivity@3df3107 in: RESUMED
+04-17 00:36:28.211 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:28.211 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:28.235   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f1348000 0x3f1cec000]
+04-17 00:36:28.241   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f2cbc000 0x3f3660000]
+04-17 00:36:28.243   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f75fe000 0x3f7fa2000]
+04-17 00:36:28.248 10397 10424 W Parcel  : Expecting binder but got null!
+04-17 00:36:28.255   419   574 W TransactionTracing: Could not find layer handle 0x7092eed649b0
+04-17 00:36:28.255   419   574 W TransactionTracing: Could not find layer handle 0x7092eed5f8b0
+04-17 00:36:28.255   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:28.255   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:28.255   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:28.255   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:28.255   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:28.255   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:28.255   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:28.256   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:28.256   685   718 I ActivityTaskManager: Displayed ca.yorku.eecs.mack.Project4443/.FlashCardActivity: +88ms
+04-17 00:36:28.272   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f3ffc000 0x3f3fff000]
+04-17 00:36:28.275   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3f97000 0x3f3f9a000]
+04-17 00:36:28.279   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3e4e000 0x3f3f45000]
+04-17 00:36:28.287   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3660000 0x3f3757000]
+04-17 00:36:28.291   685  1555 W Parcel  : Expecting binder but got null!
+04-17 00:36:28.292   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3660000 0x3f3757000]
+04-17 00:36:28.298   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3757000 0x3f384e000]
+04-17 00:36:28.299   685  1555 W Parcel  : Expecting binder but got null!
+04-17 00:36:28.331 10397 10397 D RootViewPicker: Root not ready - waiting: 10ms for one to appear.
+04-17 00:36:28.342 10397 10397 D RootViewPicker: Root not ready - waiting: 25ms for one to appear.
+04-17 00:36:28.354   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:28.354   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:28.354   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:28.368 10397 10397 D RootViewPicker: Root not ready - waiting: 50ms for one to appear.
+04-17 00:36:28.377  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+04-17 00:36:28.379  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 0, unlocked = true
+04-17 00:36:28.379  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=ca.yorku.eecs.mack.Project4443 fieldId=-1 fieldName=null extras=null}, false)
+04-17 00:36:28.379  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+04-17 00:36:28.387   419   574 W TransactionTracing: Could not find layer handle 0x7092eed63f30
+04-17 00:36:28.404   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:28.405   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:28.405   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:28.405   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:28.405   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:28.405   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:28.422 10397 10397 I ViewInteraction: Performing 'fast swipe' action on view with id: ca.yorku.eecs.mack.Project4443:id/container
+04-17 00:36:28.425  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=901.79, y[0]=1232.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1296920, downTime=1296920, deviceId=-1, source=0x1002, displayId=0, eventId=-415107040 }
+04-17 00:36:28.425   685  2237 D InputDispatcher: Touch mode switch rejected, caller (pid=0, uid=10159) doesn't own the focused window nor none of the previously interacted window
+04-17 00:36:28.426 10397 10397 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+04-17 00:36:28.525  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=105.0, y[0]=1232.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1297021, downTime=1296920, deviceId=-1, source=0x1002, displayId=0, eventId=-451183103 }
+04-17 00:36:28.607 10397 10397 I ViewInteraction: Performing 'single click' action on view with id: ca.yorku.eecs.mack.Project4443:id/container
+04-17 00:36:28.609  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=539.5, y[0]=1232.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1297105, downTime=1297105, deviceId=-1, source=0x1002, displayId=0, eventId=-576042557 }
+04-17 00:36:28.652  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=539.5, y[0]=1232.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1297148, downTime=1297105, deviceId=-1, source=0x1002, displayId=0, eventId=-686113170 }
+04-17 00:36:28.754   419   574 W TransactionTracing: Could not find layer handle 0x7092eed62f10
+04-17 00:36:28.755   419   574 W TransactionTracing: Could not find layer handle 0x7092eed67890
+04-17 00:36:28.755   419   574 W TransactionTracing: Could not find layer handle 0x7092eed63c90
+04-17 00:36:28.755   419   574 W TransactionTracing: Could not find layer handle 0x7092eed65850
+04-17 00:36:28.756   419   574 W TransactionTracing: Could not find layer handle 0x7092eed64230
+04-17 00:36:28.756   419   574 W TransactionTracing: Could not find layer handle 0x7092eed60ab0
+04-17 00:36:28.756   419   574 W TransactionTracing: Could not find layer handle 0x7092eed66ff0
+04-17 00:36:28.756   419   574 W TransactionTracing: Could not find layer handle 0x7092eed67470
+04-17 00:36:28.756   419   574 W TransactionTracing: Could not find layer handle 0x7092eed66ff0
+04-17 00:36:28.756   419   574 W TransactionTracing: Could not find layer handle 0x7092eed62f10
+04-17 00:36:28.771   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:28.772 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.ViewCardActivity@5aa5672 in: STOPPED
+04-17 00:36:28.773 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:28.773 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:28.775 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.ViewCardActivity@5aa5672 in: DESTROYED
+04-17 00:36:28.775 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:28.775 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:28.778   685  5269 W InputManager-JNI: Input channel object '4e2a547 ca.yorku.eecs.mack.Project4443/ca.yorku.eecs.mack.Project4443.ViewCardActivity (client)' was disposed without first being removed with the input manager!
+04-17 00:36:28.781 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@9335f36 in: STOPPED
+04-17 00:36:28.781 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:28.782 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:28.787   419   574 W TransactionTracing: Could not find layer handle 0x7092eed63c30
+04-17 00:36:28.787   419   574 W TransactionTracing: Could not find layer handle 0x7092eed64050
+04-17 00:36:28.805   419   574 W TransactionTracing: Could not find layer handle 0x7092eed66450
+04-17 00:36:28.805   419   574 W TransactionTracing: Could not find layer handle 0x7092eed68bb0
+04-17 00:36:28.877 10397 10397 I ViewInteraction: Performing 'fast swipe' action on view with id: ca.yorku.eecs.mack.Project4443:id/container
+04-17 00:36:28.879  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=901.79, y[0]=1232.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1297375, downTime=1297375, deviceId=-1, source=0x1002, displayId=0, eventId=-506236816 }
+04-17 00:36:28.979  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=105.0, y[0]=1232.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1297476, downTime=1297375, deviceId=-1, source=0x1002, displayId=0, eventId=-139727973 }
+04-17 00:36:29.054   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:29.060 10397 10397 I ViewInteraction: Performing 'single click' action on view with id: ca.yorku.eecs.mack.Project4443:id/container
+04-17 00:36:29.062  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=539.5, y[0]=1232.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1297559, downTime=1297559, deviceId=-1, source=0x1002, displayId=0, eventId=-769817583 }
+04-17 00:36:29.112  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=539.5, y[0]=1232.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1297609, downTime=1297559, deviceId=-1, source=0x1002, displayId=0, eventId=-557601674 }
+04-17 00:36:29.228   917  1266 D EGL_emulation: app_time_stats: avg=168.79ms min=0.86ms max=3504.18ms count=21
+04-17 00:36:29.277 10397 10424 D EGL_emulation: app_time_stats: avg=13.06ms min=1.08ms max=282.67ms count=46
+04-17 00:36:29.337   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:29.337   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:29.337   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:29.338   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:29.344 10397 10397 I ViewInteraction: Performing 'fast swipe' action on view with id: ca.yorku.eecs.mack.Project4443:id/container
+04-17 00:36:29.346  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=901.79, y[0]=1232.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1297842, downTime=1297842, deviceId=-1, source=0x1002, displayId=0, eventId=-212685112 }
+04-17 00:36:29.447  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=105.0, y[0]=1232.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1297943, downTime=1297842, deviceId=-1, source=0x1002, displayId=0, eventId=-859795415 }
+04-17 00:36:29.454   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:29.454   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:29.463   685  5269 W InputManager-JNI: Input channel object '5e18753 Toast (client)' was disposed without first being removed with the input manager!
+04-17 00:36:29.471   419   574 W TransactionTracing: Could not find layer handle 0x7092eed64ef0
+04-17 00:36:29.471   419   574 W TransactionTracing: Could not find layer handle 0x7092eed68cd0
+04-17 00:36:29.472   419   574 W TransactionTracing: Could not find layer handle 0x7092eed65cd0
+04-17 00:36:29.480   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3fa9000 0x3f3ff6000]
+04-17 00:36:29.491   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3c60000 0x3f3cad000]
+04-17 00:36:29.492   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3cad000 0x3f3cfa000]
+04-17 00:36:29.496   917  1266 W Parcel  : Expecting binder but got null!
+04-17 00:36:29.527 10397 10397 I ViewInteraction: Performing 'single click' action on view with id: ca.yorku.eecs.mack.Project4443:id/container
+04-17 00:36:29.529  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=539.5, y[0]=1232.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1298025, downTime=1298025, deviceId=-1, source=0x1002, displayId=0, eventId=-40743948 }
+04-17 00:36:29.576  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=539.5, y[0]=1232.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1298073, downTime=1298025, deviceId=-1, source=0x1002, displayId=0, eventId=-124746763 }
+04-17 00:36:29.810 10397 10397 I ViewInteraction: Performing 'fast swipe' action on view with id: ca.yorku.eecs.mack.Project4443:id/container
+04-17 00:36:29.812  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=901.79, y[0]=1232.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1298309, downTime=1298309, deviceId=-1, source=0x1002, displayId=0, eventId=-1065740411 }
+04-17 00:36:29.904   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:29.904   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:29.904   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:29.912  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=105.0, y[0]=1232.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1298409, downTime=1298309, deviceId=-1, source=0x1002, displayId=0, eventId=-765594815 }
+04-17 00:36:29.993 10397 10397 I ViewInteraction: Performing 'single click' action on view with id: ca.yorku.eecs.mack.Project4443:id/container
+04-17 00:36:29.994  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=539.5, y[0]=1232.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1298491, downTime=1298491, deviceId=-1, source=0x1002, displayId=0, eventId=-515023263 }
+04-17 00:36:30.036  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=539.5, y[0]=1232.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1298532, downTime=1298491, deviceId=-1, source=0x1002, displayId=0, eventId=-682646458 }
+04-17 00:36:30.265 10397 10397 I ViewInteraction: Performing 'fast swipe' action on view with id: ca.yorku.eecs.mack.Project4443:id/container
+04-17 00:36:30.268  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=901.79, y[0]=1232.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1298764, downTime=1298764, deviceId=-1, source=0x1002, displayId=0, eventId=-964888342 }
+04-17 00:36:30.292 10397 10424 D EGL_emulation: app_time_stats: avg=1.73ms min=1.02ms max=4.63ms count=61
+04-17 00:36:30.368  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=105.0, y[0]=1232.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1298865, downTime=1298764, deviceId=-1, source=0x1002, displayId=0, eventId=-90615114 }
+04-17 00:36:30.444 10397 10397 I ViewInteraction: Performing 'single click' action on view with id: ca.yorku.eecs.mack.Project4443:id/container
+04-17 00:36:30.446  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=539.5, y[0]=1232.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1298942, downTime=1298942, deviceId=-1, source=0x1002, displayId=0, eventId=-420462930 }
+04-17 00:36:30.487  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=539.5, y[0]=1232.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1298983, downTime=1298942, deviceId=-1, source=0x1002, displayId=0, eventId=-944472537 }
+04-17 00:36:30.621   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:30.621   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:30.621   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:30.621   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:30.621   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:30.621   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:30.621   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:30.621   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:30.713 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@9335f36 in: DESTROYED
+04-17 00:36:30.713 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:30.714 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@7a91327
+04-17 00:36:30.726   685  2237 W InputManager-JNI: Input channel object '241b44e ca.yorku.eecs.mack.Project4443/ca.yorku.eecs.mack.Project4443.MainActivity (client)' was disposed without first being removed with the input manager!
+04-17 00:36:30.731 10397 10420 I TestRunner: finished: test3ViewNoneEmptyCardTest(ca.yorku.eecs.mack.Project4443.MainActivityTest)

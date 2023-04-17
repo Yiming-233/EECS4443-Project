@@ -32,11 +32,15 @@ public class AddCard extends Activity implements View.OnClickListener {
         String newDef = String.valueOf(def.getText());
 
         if(!newWord.isEmpty() && !newDef.isEmpty()){
-            String s = newWord + "#"+newDef;
-            MainActivity.words.add(newWord);
-            MainActivity.defs.add(newDef);
-            MainActivity.backup.add(s);
-            addCard(s);
+            if(MainActivity.words.contains(newWord))
+                Toast.makeText(AddCard.this, "This word already exist", Toast.LENGTH_LONG).show();
+            else{
+                String s = newWord + "#"+newDef;
+                MainActivity.words.add(newWord);
+                MainActivity.defs.add(newDef);
+                MainActivity.backup.add(s);
+                addCard(s);
+            }
         }
         else
             Toast.makeText(AddCard.this, "Your word or definition is empty", Toast.LENGTH_LONG).show();

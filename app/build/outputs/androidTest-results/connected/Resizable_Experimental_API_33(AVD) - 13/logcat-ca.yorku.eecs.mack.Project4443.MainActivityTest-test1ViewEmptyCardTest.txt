@@ -1,0 +1,120 @@
+04-17 00:36:23.190 10397 10420 I TestRunner: started: test1ViewEmptyCardTest(ca.yorku.eecs.mack.Project4443.MainActivityTest)
+04-17 00:36:23.193 10397 10397 I MonitoringInstr: Activities that are still in CREATED to STOPPED: 0
+04-17 00:36:23.194 10397 10420 W ActivityTestRule: getActivityIntent() returned null using default: Intent(Intent.ACTION_MAIN)
+04-17 00:36:23.225   917  1251 D SplashScreenView: Build android.window.SplashScreenView{a1cbb5d V.E...... ......ID 0,0-0,0}
+04-17 00:36:23.225   917  1251 D SplashScreenView: Icon: view: null drawable: null size: 0
+04-17 00:36:23.225   917  1251 D SplashScreenView: Branding: view: android.view.View{6404cd2 G.ED..... ......I. 0,0-0,0 #10204db android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+04-17 00:36:23.244   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f1c28000 0x3f25cc000]
+04-17 00:36:23.253 10397 10426 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+04-17 00:36:23.255 10397 10426 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+04-17 00:36:23.263 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@cd6596 in: PRE_ON_CREATE
+04-17 00:36:23.265   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f25cc000 0x3f2f70000]
+04-17 00:36:23.268   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f2f70000 0x3f3914000]
+04-17 00:36:23.268 10397 10426 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+04-17 00:36:23.268   917  1266 W Parcel  : Expecting binder but got null!
+04-17 00:36:23.290   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:23.290   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:23.290   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:23.290   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:23.301 10397 10397 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10159; state: ENABLED
+04-17 00:36:23.318 10397 10397 I MYDEBUG : Number of flashcards = 5
+04-17 00:36:23.319 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@cd6596 in: CREATED
+04-17 00:36:23.320 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@cd6596 in: STARTED
+04-17 00:36:23.322  2773  2773 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+04-17 00:36:23.323 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@cd6596 in: RESUMED
+04-17 00:36:23.323  2773  2813 E HwDetectorWithState: a: 3
+04-17 00:36:23.338   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:23.376   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:23.377   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:23.394 10397 10424 D HostConnection: createUnique: call
+04-17 00:36:23.394 10397 10424 D HostConnection: HostConnection::get() New Host Connection established 0x788a699ae490, tid 10424
+04-17 00:36:23.399 10397 10424 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1
+04-17 00:36:23.400 10397 10424 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+04-17 00:36:23.401 10397 10424 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+04-17 00:36:23.410 10397 10424 D EGL_emulation: eglCreateContext: 0x788a699ac510: maj 3 min 1 rcv 4
+04-17 00:36:23.428 10397 10424 D EGL_emulation: eglMakeCurrent: 0x788a699ac510: ver 3 1 (tinfo 0x788c83814080) (first time)
+04-17 00:36:23.440   230   230 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+04-17 00:36:23.440 10397 10424 I Gralloc4: mapper 4.x is not supported
+04-17 00:36:23.441 10397 10424 D HostConnection: createUnique: call
+04-17 00:36:23.441 10397 10424 D HostConnection: HostConnection::get() New Host Connection established 0x788a699ae550, tid 10424
+04-17 00:36:23.442 10397 10424 D goldfish-address-space: allocate: Ask for block of size 0x100
+04-17 00:36:23.442 10397 10424 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3efffe000 size 0x2000
+04-17 00:36:23.443   230   230 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+04-17 00:36:23.443   229   229 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+04-17 00:36:23.443 10397 10424 W Gralloc4: allocator 4.x is not supported
+04-17 00:36:23.445   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f0000000 0x3f09a4000]
+04-17 00:36:23.449 10397 10424 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1
+04-17 00:36:23.451   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f09a4000 0x3f1348000]
+04-17 00:36:23.453   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f6c5a000 0x3f75fe000]
+04-17 00:36:23.561 10397 10424 W Parcel  : Expecting binder but got null!
+04-17 00:36:23.565   685   718 W ziparchive: Unable to open '/data/app/~~5WkMgUHT59kjF6dyU1ZdyQ==/ca.yorku.eecs.mack.Project4443-1Ccr90nrDFhx_yJ-zYP2gw==/base.dm': No such file or directory
+04-17 00:36:23.566   685   718 I ActivityTaskManager: Displayed ca.yorku.eecs.mack.Project4443/.MainActivity: +367ms
+04-17 00:36:23.574   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:23.574   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:23.584  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+04-17 00:36:23.585  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 0, unlocked = true
+04-17 00:36:23.586  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=ca.yorku.eecs.mack.Project4443 fieldId=2131230720 fieldName=null extras=null}, false)
+04-17 00:36:23.592  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+04-17 00:36:23.594  1048  1358 D BtGatt.ScanManager: uid 10105 isForeground true scanMode 1
+04-17 00:36:23.594  1048  1358 D BtGatt.ScanManager: uid 10105 isForeground true scanMode -1
+04-17 00:36:23.594  1048  1358 D BtGatt.ScanManager: uid 10105 isForeground true scanMode -1
+04-17 00:36:23.621   419   574 W TransactionTracing: Could not find layer handle 0x7092eed67e30
+04-17 00:36:23.622   419   574 W TransactionTracing: Could not find layer handle 0x7092eed668d0
+04-17 00:36:23.635 10397 10420 D InputManagerEventInjectionStrategy: Creating injection strategy with input manager.
+04-17 00:36:23.635 10397 10420 W ack.Project4443: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (unsupported, reflection, allowed)
+04-17 00:36:23.636 10397 10420 W ack.Project4443: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
+04-17 00:36:23.636 10397 10420 W ack.Project4443: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (unsupported, reflection, allowed)
+04-17 00:36:23.650 10397 10420 W ack.Project4443: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (unsupported, reflection, allowed)
+04-17 00:36:23.658 10397 10397 W ack.Project4443: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
+04-17 00:36:23.658 10397 10397 W ack.Project4443: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
+04-17 00:36:23.659 10397 10397 W ack.Project4443: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
+04-17 00:36:23.662 10397 10397 W ack.Project4443: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (unsupported, reflection, allowed)
+04-17 00:36:23.662 10397 10397 W ack.Project4443: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+04-17 00:36:23.662 10397 10397 W ack.Project4443: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+04-17 00:36:23.668 10397 10397 I ViewInteraction: Performing 'single click' action on view (with id: ca.yorku.eecs.mack.Project4443:id/ViewCardButton and with text: is "View Card Deck" and Child at position 1 in parent Child at position 0 in parent with class name: is "android.widget.LinearLayout" and is displayed on the screen to the user)
+04-17 00:36:23.670   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:23.670   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:23.671   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:23.671   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:23.671   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:23.675   685  1701 D InputDispatcher: Touch mode switch rejected, caller (pid=0, uid=10159) doesn't own the focused window nor none of the previously interacted window
+04-17 00:36:23.676  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=539.5, y[0]=1232.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1292171, downTime=1292171, deviceId=-1, source=0x1002, displayId=0, eventId=-559827272 }
+04-17 00:36:23.717  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=539.5, y[0]=1232.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1292214, downTime=1292171, deviceId=-1, source=0x1002, displayId=0, eventId=-1073631844 }
+04-17 00:36:23.729 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@cd6596 in: PAUSED
+04-17 00:36:23.729 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@73d79a6
+04-17 00:36:23.729 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@73d79a6
+04-17 00:36:23.741 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.ViewCardActivity@eb78a32 in: PRE_ON_CREATE
+04-17 00:36:23.741 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@73d79a6
+04-17 00:36:23.741 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@73d79a6
+04-17 00:36:23.756 10397 10397 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+04-17 00:36:23.768 10397 10397 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10159; state: ENABLED
+04-17 00:36:23.771 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.ViewCardActivity@eb78a32 in: CREATED
+04-17 00:36:23.771 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@73d79a6
+04-17 00:36:23.771 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@73d79a6
+04-17 00:36:23.772 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.ViewCardActivity@eb78a32 in: STARTED
+04-17 00:36:23.772 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@73d79a6
+04-17 00:36:23.772 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@73d79a6
+04-17 00:36:23.774 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.ViewCardActivity@eb78a32 in: RESUMED
+04-17 00:36:23.774 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@73d79a6
+04-17 00:36:23.774 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@73d79a6
+04-17 00:36:23.795   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f75fe000 0x3f7fa2000]
+04-17 00:36:23.802   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f4000000 0x3f49a4000]
+04-17 00:36:23.812   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f49a4000 0x3f5348000]
+04-17 00:36:23.828 10397 10424 W Parcel  : Expecting binder but got null!
+04-17 00:36:23.835   685   718 I ActivityTaskManager: Displayed ca.yorku.eecs.mack.Project4443/.ViewCardActivity: +115ms
+04-17 00:36:23.848   685  2237 W InputManager-JNI: Input channel object 'a6387a2 Splash Screen ca.yorku.eecs.mack.Project4443 (client)' was disposed without first being removed with the input manager!
+04-17 00:36:23.856   399  5690 D goldfish-address-space: claimShared: Ask to claim region [0x3f3f9d000 0x3f3fa0000]
+04-17 00:36:23.862   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f3fa0000 0x3f3fa3000]
+04-17 00:36:23.867   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f3914000 0x3f3a0b000]
+04-17 00:36:23.885   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f3a0b000 0x3f3b02000]
+04-17 00:36:23.890   685  1555 W Parcel  : Expecting binder but got null!
+04-17 00:36:23.893   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f3a0b000 0x3f3b02000]
+04-17 00:36:23.898   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f3b02000 0x3f3bf9000]
+04-17 00:36:23.900   685  1555 W Parcel  : Expecting binder but got null!
+04-17 00:36:23.990  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+04-17 00:36:23.991  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 0, unlocked = true
+04-17 00:36:23.992  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=ca.yorku.eecs.mack.Project4443 fieldId=2131230782 fieldName=null extras=null}, false)
+04-17 00:36:23.992  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+04-17 00:36:24.060 10397 10397 W ack.Project4443: Accessing hidden field Landroid/app/Activity;->mResultCode:I (unsupported, reflection, allowed)
+04-17 00:36:24.060 10397 10397 W ack.Project4443: Accessing hidden field Landroid/app/Activity;->mResultData:Landroid/content/Intent; (unsupported, reflection, allowed)
+04-17 00:36:24.063 10397 10420 I TestRunner: finished: test1ViewEmptyCardTest(ca.yorku.eecs.mack.Project4443.MainActivityTest)

@@ -1,0 +1,248 @@
+04-17 00:36:33.380 10397 10420 I TestRunner: started: test5Return1Test(ca.yorku.eecs.mack.Project4443.MainActivityTest)
+04-17 00:36:33.382 10397 10397 I MonitoringInstr: Activities that are still in CREATED to STOPPED: 0
+04-17 00:36:33.383 10397 10420 W ActivityTestRule: getActivityIntent() returned null using default: Intent(Intent.ACTION_MAIN)
+04-17 00:36:33.391   917  1251 D SplashScreenView: Build android.window.SplashScreenView{31ce7c0 V.E...... ......ID 0,0-0,0}
+04-17 00:36:33.391   917  1251 D SplashScreenView: Icon: view: null drawable: null size: 0
+04-17 00:36:33.391   917  1251 D SplashScreenView: Branding: view: android.view.View{6b5cf9 G.ED..... ......I. 0,0-0,0 #10204db android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+04-17 00:36:33.411   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f2944000 0x3f32e8000]
+04-17 00:36:33.411 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@7fe9221 in: PRE_ON_CREATE
+04-17 00:36:33.420   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f4000000 0x3f49a4000]
+04-17 00:36:33.422 10397 10397 I MYDEBUG : Number of flashcards = 4
+04-17 00:36:33.422   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f8000000 0x3f89a4000]
+04-17 00:36:33.422 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@7fe9221 in: CREATED
+04-17 00:36:33.423 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@7fe9221 in: STARTED
+04-17 00:36:33.424 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@7fe9221 in: RESUMED
+04-17 00:36:33.426   917  1266 W Parcel  : Expecting binder but got null!
+04-17 00:36:33.448   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f1348000 0x3f1cec000]
+04-17 00:36:33.455   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:33.455   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:33.459   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f89a4000 0x3f9348000]
+04-17 00:36:33.461   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f9348000 0x3f9cec000]
+04-17 00:36:33.464 10397 10424 W Parcel  : Expecting binder but got null!
+04-17 00:36:33.468   685   718 W ziparchive: Unable to open '/data/app/~~5WkMgUHT59kjF6dyU1ZdyQ==/ca.yorku.eecs.mack.Project4443-1Ccr90nrDFhx_yJ-zYP2gw==/base.dm': No such file or directory
+04-17 00:36:33.469   685   718 I ActivityTaskManager: Displayed ca.yorku.eecs.mack.Project4443/.MainActivity: +82ms
+04-17 00:36:33.479  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+04-17 00:36:33.479  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 0, unlocked = true
+04-17 00:36:33.480  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=ca.yorku.eecs.mack.Project4443 fieldId=2131230720 fieldName=null extras=null}, false)
+04-17 00:36:33.480  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+04-17 00:36:33.488   419   574 W TransactionTracing: Could not find layer handle 0x7092eed65370
+04-17 00:36:33.489   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:33.499  2773  2773 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+04-17 00:36:33.499  2773  2813 E HwDetectorWithState: a: 3
+04-17 00:36:33.520   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:33.521   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:33.521   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:33.521   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:33.546   685   710 W InputManager-JNI: Input channel object 'ab16a3 Toast (client)' was disposed without first being removed with the input manager!
+04-17 00:36:33.555   419   574 W TransactionTracing: Could not find layer handle 0x7092eed65610
+04-17 00:36:33.555   419   574 W TransactionTracing: Could not find layer handle 0x7092eed667b0
+04-17 00:36:33.555   419   574 W TransactionTracing: Could not find layer handle 0x7092eed63930
+04-17 00:36:33.568   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f3fa9000 0x3f3ff6000]
+04-17 00:36:33.571   419   574 W TransactionTracing: Could not find layer handle 0x7092eed661b0
+04-17 00:36:33.571   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:33.571   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:33.571   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:33.573   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f3ef1000 0x3f3f3e000]
+04-17 00:36:33.576   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f3cfd000 0x3f3d4a000]
+04-17 00:36:33.578   917  1266 W Parcel  : Expecting binder but got null!
+04-17 00:36:33.735  1048  1358 D BtGatt.ScanManager: uid 10105 isForeground true scanMode 1
+04-17 00:36:33.735  1048  1358 D BtGatt.ScanManager: uid 10105 isForeground true scanMode -1
+04-17 00:36:33.735  1048  1358 D BtGatt.ScanManager: uid 10105 isForeground true scanMode -1
+04-17 00:36:33.738   419   574 W TransactionTracing: Could not find layer handle 0x7092eed643b0
+04-17 00:36:33.739   419   574 W TransactionTracing: Could not find layer handle 0x7092eed58ef0
+04-17 00:36:33.742 10397 10397 I ViewInteraction: Performing 'single click' action on view (with id: ca.yorku.eecs.mack.Project4443:id/ViewCardButton and with text: is "View Card Deck" and Child at position 1 in parent Child at position 0 in parent with class name: is "android.widget.LinearLayout" and is displayed on the screen to the user)
+04-17 00:36:33.747 10397 10397 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+04-17 00:36:33.748   685  3577 D InputDispatcher: Touch mode switch rejected, caller (pid=0, uid=10159) doesn't own the focused window nor none of the previously interacted window
+04-17 00:36:33.751   685   710 W InputManager-JNI: Input channel object 'd392628 Splash Screen ca.yorku.eecs.mack.Project4443 (client)' was disposed without first being removed with the input manager!
+04-17 00:36:33.753  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=539.5, y[0]=1232.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1302241, downTime=1302241, deviceId=-1, source=0x1002, displayId=0, eventId=-779696161 }
+04-17 00:36:33.787  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=539.5, y[0]=1232.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1302283, downTime=1302241, deviceId=-1, source=0x1002, displayId=0, eventId=-791758439 }
+04-17 00:36:33.789   419   574 W TransactionTracing: Could not find layer handle 0x7092eed67bf0
+04-17 00:36:33.789   419   574 W TransactionTracing: Could not find layer handle 0x7092eed62e50
+04-17 00:36:33.789   419   574 W TransactionTracing: Could not find layer handle 0x7092eed66ab0
+04-17 00:36:33.796 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@7fe9221 in: PAUSED
+04-17 00:36:33.796 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:33.797 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:33.807 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.ViewCardActivity@21a9cd in: PRE_ON_CREATE
+04-17 00:36:33.807 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:33.807 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:33.817 10397 10397 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+04-17 00:36:33.820   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:33.820   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:33.820   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:33.820   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:33.821   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:33.822 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.ViewCardActivity@21a9cd in: CREATED
+04-17 00:36:33.823 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:33.823 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:33.823 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.ViewCardActivity@21a9cd in: STARTED
+04-17 00:36:33.823 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:33.824 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:33.824 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.ViewCardActivity@21a9cd in: RESUMED
+04-17 00:36:33.824 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:33.824 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:33.849   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f0000000 0x3f09a4000]
+04-17 00:36:33.857   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f09a4000 0x3f1348000]
+04-17 00:36:33.859   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f6c5a000 0x3f75fe000]
+04-17 00:36:33.866 10397 10424 W Parcel  : Expecting binder but got null!
+04-17 00:36:33.871   685   718 I ActivityTaskManager: Displayed ca.yorku.eecs.mack.Project4443/.ViewCardActivity: +80ms
+04-17 00:36:33.888   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:33.888   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:33.890   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f3f62000 0x3f3f65000]
+04-17 00:36:33.892   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3f65000 0x3f3f68000]
+04-17 00:36:33.898   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3d4a000 0x3f3e41000]
+04-17 00:36:33.902   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3914000 0x3f3a0b000]
+04-17 00:36:33.907   685  1555 W Parcel  : Expecting binder but got null!
+04-17 00:36:33.907   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3a0b000 0x3f3b02000]
+04-17 00:36:33.912   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3b02000 0x3f3bf9000]
+04-17 00:36:33.913   685  1555 W Parcel  : Expecting binder but got null!
+04-17 00:36:33.990  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+04-17 00:36:33.990  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 0, unlocked = true
+04-17 00:36:33.990  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=ca.yorku.eecs.mack.Project4443 fieldId=2131230782 fieldName=null extras=null}, false)
+04-17 00:36:33.991  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+04-17 00:36:34.004   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:34.093 10397 10397 I ViewInteraction: Performing 'load adapter data' action on view (with id: ca.yorku.eecs.mack.Project4443:id/list_view and Child at position 1 in parent with class name: is "android.widget.RelativeLayout")
+04-17 00:36:34.108 10397 10397 I ViewInteraction: Performing 'single click' action on view  displaying data matching: ANYTHING within adapter view matching: (with id: ca.yorku.eecs.mack.Project4443:id/list_view and Child at position 1 in parent with class name: is "android.widget.RelativeLayout")
+04-17 00:36:34.109  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=539.5, y[0]=377.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1302606, downTime=1302606, deviceId=-1, source=0x1002, displayId=0, eventId=-1071652489 }
+04-17 00:36:34.110   685  7081 D InputDispatcher: Touch mode switch rejected, caller (pid=0, uid=10159) doesn't own the focused window nor none of the previously interacted window
+04-17 00:36:34.151  1326  1326 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=539.5, y[0]=377.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1302647, downTime=1302606, deviceId=-1, source=0x1002, displayId=0, eventId=-1230623 }
+04-17 00:36:34.227 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.ViewCardActivity@21a9cd in: PAUSED
+04-17 00:36:34.227 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:34.227 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:34.233 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.FlashCardActivity@5b42ca9 in: PRE_ON_CREATE
+04-17 00:36:34.233 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:34.233 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:34.249 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.FlashCardActivity@5b42ca9 in: CREATED
+04-17 00:36:34.249 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:34.249 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:34.250 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.FlashCardActivity@5b42ca9 in: STARTED
+04-17 00:36:34.250 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:34.251 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:34.251 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.FlashCardActivity@5b42ca9 in: RESUMED
+04-17 00:36:34.252 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:34.252 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:34.279   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f2944000 0x3f32e8000]
+04-17 00:36:34.285   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f75fe000 0x3f7fa2000]
+04-17 00:36:34.288   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:34.288   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f4000000 0x3f49a4000]
+04-17 00:36:34.288   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:34.288   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:34.289   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:34.289   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:34.289   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:34.289   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:34.289   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:34.298 10397 10424 W Parcel  : Expecting binder but got null!
+04-17 00:36:34.309   685   718 I ActivityTaskManager: Displayed ca.yorku.eecs.mack.Project4443/.FlashCardActivity: +89ms
+04-17 00:36:34.321   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:34.321   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:34.321   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:34.322   399   529 D goldfish-address-space: claimShared: Ask to claim region [0x3f3f68000 0x3f3f6b000]
+04-17 00:36:34.326   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3f6b000 0x3f3f6e000]
+04-17 00:36:34.334   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3914000 0x3f3a0b000]
+04-17 00:36:34.344   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3b02000 0x3f3bf9000]
+04-17 00:36:34.346   685  1555 W Parcel  : Expecting binder but got null!
+04-17 00:36:34.347   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3d4a000 0x3f3e41000]
+04-17 00:36:34.353   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3b02000 0x3f3bf9000]
+04-17 00:36:34.355   685  1555 W Parcel  : Expecting binder but got null!
+04-17 00:36:34.355   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:34.355   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:34.355   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:34.355   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:34.398 10397 10397 D RootViewPicker: Root not ready - waiting: 10ms for one to appear.
+04-17 00:36:34.409 10397 10397 D RootViewPicker: Root not ready - waiting: 25ms for one to appear.
+04-17 00:36:34.436 10397 10397 D RootViewPicker: Root not ready - waiting: 50ms for one to appear.
+04-17 00:36:34.440  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+04-17 00:36:34.441  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 0, unlocked = true
+04-17 00:36:34.441  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=ca.yorku.eecs.mack.Project4443 fieldId=-1 fieldName=null extras=null}, false)
+04-17 00:36:34.442  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+04-17 00:36:34.454   419   574 W TransactionTracing: Could not find layer handle 0x7092eed64b90
+04-17 00:36:34.487 10397 10397 I ViewInteraction: Performing 'send keyCode: 4, metaState: 0 key event' action on view is a root view.
+04-17 00:36:34.646 10397 10397 E KeyEventActionBase: Back was pressed but there was no Activity stage transition in 150ms, possibly due to a delay calling super.onBackPressed() from your Activity.
+04-17 00:36:34.737   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:34.737   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:34.837   419   574 W TransactionTracing: Could not find layer handle 0x7092eed5f8b0
+04-17 00:36:34.839   419   574 W TransactionTracing: Could not find layer handle 0x7092eed68970
+04-17 00:36:34.839   419   574 W TransactionTracing: Could not find layer handle 0x7092eed606f0
+04-17 00:36:34.840   419   574 W TransactionTracing: Could not find layer handle 0x7092eed65310
+04-17 00:36:34.840   419   574 W TransactionTracing: Could not find layer handle 0x7092eed66cf0
+04-17 00:36:34.840   419   574 W TransactionTracing: Could not find layer handle 0x7092eed62eb0
+04-17 00:36:34.841   419   574 W TransactionTracing: Could not find layer handle 0x7092eed643b0
+04-17 00:36:34.841   419   574 W TransactionTracing: Could not find layer handle 0x7092eed68910
+04-17 00:36:34.841   419   574 W TransactionTracing: Could not find layer handle 0x7092eed62eb0
+04-17 00:36:34.842   419   574 W TransactionTracing: Could not find layer handle 0x7092eed5f8b0
+04-17 00:36:34.842   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:34.849 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.ViewCardActivity@21a9cd in: STOPPED
+04-17 00:36:34.849 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:34.850 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:34.850 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.ViewCardActivity@21a9cd in: DESTROYED
+04-17 00:36:34.851 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:34.851 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:34.854   685  3577 W InputManager-JNI: Input channel object '7153ae8 ca.yorku.eecs.mack.Project4443/ca.yorku.eecs.mack.Project4443.ViewCardActivity (client)' was disposed without first being removed with the input manager!
+04-17 00:36:34.859 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@7fe9221 in: STOPPED
+04-17 00:36:34.859 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:34.859 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:34.871   419   574 W TransactionTracing: Could not find layer handle 0x7092eed60ab0
+04-17 00:36:34.871   419   574 W TransactionTracing: Could not find layer handle 0x7092eed68d30
+04-17 00:36:34.871   419   574 W TransactionTracing: Could not find layer handle 0x7092eed64170
+04-17 00:36:34.949 10397 10397 I ViewInteraction: Performing 'send keyCode: 4, metaState: 0 key event' action on view is a root view.
+04-17 00:36:34.956   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f0000000 0x3f062c000]
+04-17 00:36:34.965 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.FlashCardActivity@5b42ca9 in: PAUSED
+04-17 00:36:34.966 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:34.966 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:34.974 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@7fe9221 in: RESTARTED
+04-17 00:36:34.974 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:34.974 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:34.975 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@7fe9221 in: STARTED
+04-17 00:36:34.975 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:34.975 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:34.975 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@7fe9221 in: RESUMED
+04-17 00:36:34.975 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:34.975 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:34.997   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f062c000 0x3f0fd0000]
+04-17 00:36:35.005   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:35.011   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f0fd0000 0x3f1974000]
+04-17 00:36:35.013   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f6c5a000 0x3f75fe000]
+04-17 00:36:35.023   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3f6e000 0x3f3f71000]
+04-17 00:36:35.025   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3f71000 0x3f3f74000]
+04-17 00:36:35.031   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3d4a000 0x3f3e41000]
+04-17 00:36:35.036   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3914000 0x3f3a0b000]
+04-17 00:36:35.040   685  1555 W Parcel  : Expecting binder but got null!
+04-17 00:36:35.042   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3914000 0x3f3a0b000]
+04-17 00:36:35.047   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f3a0b000 0x3f3b02000]
+04-17 00:36:35.049   685  1555 W Parcel  : Expecting binder but got null!
+04-17 00:36:35.075  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+04-17 00:36:35.076  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 0, unlocked = true
+04-17 00:36:35.076  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=ca.yorku.eecs.mack.Project4443 fieldId=-1 fieldName=null extras=null}, false)
+04-17 00:36:35.077  2886  2886 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+04-17 00:36:35.087   419   574 W TransactionTracing: Could not find layer handle 0x7092eed66c30
+04-17 00:36:35.087   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:35.087   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:35.087   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:35.087   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:35.093   685   703 I system_server: NativeAlloc concurrent copying GC freed 335054(14MB) AllocSpace objects, 11(444KB) LOS objects, 49% free, 21MB/42MB, paused 924us,191us total 111.774ms
+04-17 00:36:35.237   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:35.237   419   574 W TransactionTracing: Could not find layer id -1
+04-17 00:36:35.504   419   574 W TransactionTracing: Could not find layer handle 0x7092eed68970
+04-17 00:36:35.504   419   574 W TransactionTracing: Could not find layer handle 0x7092eed65a30
+04-17 00:36:35.504   419   574 W TransactionTracing: Could not find layer handle 0x7092eed66cf0
+04-17 00:36:35.505   419   574 W TransactionTracing: Could not find layer handle 0x7092eed65850
+04-17 00:36:35.505   419   574 W TransactionTracing: Could not find layer handle 0x7092eed62e50
+04-17 00:36:35.505   419   574 W TransactionTracing: Could not find layer handle 0x7092eed66150
+04-17 00:36:35.505   419   574 W TransactionTracing: Could not find layer handle 0x7092eed66cf0
+04-17 00:36:35.505   419   574 W TransactionTracing: Could not find layer handle 0x7092eed68970
+04-17 00:36:35.511 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.FlashCardActivity@5b42ca9 in: STOPPED
+04-17 00:36:35.511 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:35.511 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:35.512 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.FlashCardActivity@5b42ca9 in: DESTROYED
+04-17 00:36:35.512 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:35.512 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:35.514   685  2599 W InputManager-JNI: Input channel object '9b6033a ca.yorku.eecs.mack.Project4443/ca.yorku.eecs.mack.Project4443.FlashCardActivity (client)' was disposed without first being removed with the input manager!
+04-17 00:36:35.521   419   574 W TransactionTracing: Could not find layer handle 0x7092eed64c50
+04-17 00:36:35.522   419   574 W TransactionTracing: Could not find layer handle 0x7092eed582f0
+04-17 00:36:35.538   419   574 W TransactionTracing: Could not find layer handle 0x7092eed67f50
+04-17 00:36:35.623 10397 10397 E KeyEventActionBase: Back was pressed and left the application in an inconsistent state even after 600ms.
+04-17 00:36:35.627   399   528 D goldfish-address-space: claimShared: Ask to claim region [0x3f2944000 0x3f2f70000]
+04-17 00:36:35.646 10397 10397 D LifecycleMonitor: Lifecycle status change: ca.yorku.eecs.mack.Project4443.MainActivity@7fe9221 in: PAUSED
+04-17 00:36:35.646 10397 10397 D LifecycleMonitor: running callback: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:35.646 10397 10397 D LifecycleMonitor: callback completes: android.support.test.rule.ActivityTestRule$LifecycleCallback@d68fcf6
+04-17 00:36:35.654 10397 10420 I TestRunner: finished: test5Return1Test(ca.yorku.eecs.mack.Project4443.MainActivityTest)
