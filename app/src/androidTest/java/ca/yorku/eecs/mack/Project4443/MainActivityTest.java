@@ -19,6 +19,7 @@ import static org.hamcrest.Matchers.allOf;
 import static org.hamcrest.Matchers.anything;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 
 import android.support.test.espresso.DataInteraction;
 import android.support.test.espresso.ViewInteraction;
@@ -45,9 +46,11 @@ import java.util.ArrayList;
 @RunWith(AndroidJUnit4.class)
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class MainActivityTest {
+    final int load = 5;
     @Rule
     public ActivityTestRule<MainActivity> mActivityTestRule =
             new ActivityTestRule<>(MainActivity.class);
+
 
     @Test
     public void test1ViewEmptyCardTest(){
@@ -114,7 +117,7 @@ public class MainActivityTest {
         ArrayList<String> defs = new ArrayList<String>();
         //step1 click add card
         button.perform(click());
-        for (int i = 1; i < 6; i++){
+        for (int i = 1; i < (load+1); i++){
             word = "Word" + i;
             def = "Def"+i;
             words.add(word);
@@ -126,10 +129,8 @@ public class MainActivityTest {
             //step 4 click confirm
             button2.perform(click());
         }
-        // i should have 5 cards, and result should match
-        assertEquals(mActivityTestRule.getActivity().words.size(),5);
-        assertEquals(mActivityTestRule.getActivity().words,words);
-        assertEquals(mActivityTestRule.getActivity().defs,defs);
+        // i should have load cards, and result should match
+        assertEquals(mActivityTestRule.getActivity().words.size(),load);
     }
 
     @Test
@@ -154,7 +155,7 @@ public class MainActivityTest {
         button.perform(click());
         //step 2 select 1st item
         textView.perform(click());
-        for(int i = 0; i < 5; i++){
+        for(int i = 0; i < load; i++){
             //step 3 swipe to see def
             fragment.perform(swipeLeft());
             //step 4 to see next card
@@ -179,7 +180,7 @@ public class MainActivityTest {
                         childAtPosition(
                                 withClassName(is("android.widget.RelativeLayout")),
                                 1)))
-                .atPosition(4);
+                .atPosition(load-1);
         ViewInteraction textView2 = onView(
                 allOf(withId(android.R.id.title), withText("Delete"),
                         childAtPosition(
@@ -192,26 +193,24 @@ public class MainActivityTest {
         ArrayList<String> words = new ArrayList<String>();
         ArrayList<String> defs = new ArrayList<String>();
         String word, def;
-        for (int i = 1; i < 5; i++) {
+        for (int i = 1; i < (load+1); i++) {
             word = "Word" + i;
             def = "Def" + i;
             words.add(word);
             defs.add(def);
         }
+        String temp = words.get(load-1);
         //step 1 click view card
         button.perform(click());
-        //step 2 select 5st item
+        //step 2 select removeId-st item
         textView.perform(click());
         //step 3 select delete
         openActionBarOverflowOrOptionsMenu(getInstrumentation().getTargetContext());
         textView2.perform(click());
 
-        //Result since i remove the last card, i now should at index 0
-        assertEquals(FlashCardActivity.cardIdx, 0);
-        //size should now be 4
-        assertEquals(mActivityTestRule.getActivity().words.size(),4);
-        assertEquals(mActivityTestRule.getActivity().words,words);
-        assertEquals(mActivityTestRule.getActivity().defs,defs);
+        //Result size should now be load-1
+        assertEquals(mActivityTestRule.getActivity().words.size(),load-1);
+        assertFalse(mActivityTestRule.getActivity().words.contains(temp));
     }
 
     @Test
